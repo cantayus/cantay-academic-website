@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "format": "image/webp",
+  "quality": 96,
+  "resampling": "Lanczos downsampling only; full original frame preserved; no sharpening or upscaling.",
+  "images": [
+    {
+      "id": "portrait",
+      "source": "/people/cantay-portrait.png",
+      "sourceWidth": 1280,
+      "sourceHeight": 1363,
+      "sourceSha256": "f263aedc58d1f84316d67d90ed9ecbef3d8817efb5a68b73913c3c8b453e9674",
+      "variants": [
+        {
+          "src": "/people/cantay-portrait-320.webp",
+          "width": 320,
+          "height": 341,
+          "bytes": 23416,
+          "type": "image/webp"
+        },
+        {
+          "src": "/people/cantay-portrait-640.webp",
+          "width": 640,
+          "height": 682,
+          "bytes": 84008,
+          "type": "image/webp"
+        },
+        {
+          "src": "/people/cantay-portrait-960.webp",
+          "width": 960,
+          "height": 1022,
+          "bytes": 189560,
+          "type": "image/webp"
+        },
+        {
+          "src": "/people/cantay-portrait-1280.webp",
+          "width": 1280,
+          "height": 1363,
+          "bytes": 313556,
+          "type": "image/webp"
+        }
+      ]
+    },
+    {
+      "id": "society-atlas",
+      "source": "/games/society-atlas.jpg",
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "sourceSha256": "7ce7406e3474de37cd14f7387c1bf4a32cceca44d49678b5ee40bf0c11a89eb1",
+      "variants": [
+        {
+          "src": "/games/society-atlas-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 58916,
+          "type": "image/webp"
+        },
+        {
+          "src": "/games/society-atlas-1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 153232,
+          "type": "image/webp"
+        }
+      ]
+    },
+    {
+      "id": "missing-variable",
+      "source": "/games/missing-variable.jpg",
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "sourceSha256": "3ac383ef6280ff685a444636737fb708c7aa75f29d77f5023021c1419ddbffe6",
+      "variants": [
+        {
+          "src": "/games/missing-variable-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 83312,
+          "type": "image/webp"
+        },
+        {
+          "src": "/games/missing-variable-1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 226164,
+          "type": "image/webp"
+        }
+      ]
+    }
+  ]
+}

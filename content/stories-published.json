@@ -1,0 +1,162 @@
+[
+  {
+    "id": "visible-boundaries-relative-spacing",
+    "paperId": "veiled-metrics",
+    "title": "Closer together does not automatically mean more polarized",
+    "summary": "The final article treats street-level proximity as evidence of social separation, with several possible explanations.",
+    "paragraphs": [
+      "The study turns public street videos into detected people, visible attire categories and normalized pairwise distances. The clearest same-group closeness appears among people classified as religious women.",
+      "The final published article adds an important distinction: social distance, homophily and polarization are not interchangeable. Friends walking together, shared routines, gender norms and the built environment can all produce spatial clustering without hostility toward another group.",
+      "The figures expose both parts of the measurement process: estimating depth from a flat image, then comparing relative distances across category pairs. Neither step reads someone’s beliefs or provides a calibrated distance in meters."
+    ],
+    "limitations": [
+      "Attire is a visible cue, not a verified statement of religious belief or political identity.",
+      "Relative spacing cannot identify animosity or distinguish friendship from chance proximity.",
+      "Classification errors, video selection and unobserved relationships affect interpretation."
+    ],
+    "figureIds": [
+      "veiled-relative-depth",
+      "veiled-distance-contrasts"
+    ],
+    "sourcePages": [
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "sourceUrl": "https://www.nature.com/articles/s41598-025-01307-5"
+  },
+  {
+    "id": "correlation-and-centrist-compression",
+    "paperId": "party-positions",
+    "title": "A high correlation can hide systematic moderation",
+    "summary": "A model can rank manifestos reasonably well while compressing the differences between them.",
+    "paragraphs": [
+      "The authors give five language models the Manifesto Project’s coding scheme, classify individual text segments, and aggregate those labels into left–right scores. In this July 2024 manuscript, ChatGPT 3.5 produces a correlation of 0.86 with the human benchmark.",
+      "The scatterplot shows why that correlation is only part of the story. The colored fitted lines are flatter than the dashed identity line: differences between parties are compressed, and more extreme manifestos tend to appear more moderate.",
+      "The benchmark also needs judgment. Some segments can reasonably receive more than one code, and isolated sentences can lose context. The study therefore asks whether automation can substitute for expert interpretation, rather than treating every disagreement as a simple model error."
+    ],
+    "limitations": [
+      "This figure and its numerical results come from the July 2024 manuscript, not a verified final published PDF.",
+      "The comparison tests five particular 2024 model deployments and one prompting setup in three countries.",
+      "Human coding is a benchmark with ambiguity; high correlation is not perfect agreement or proof of validity."
+    ],
+    "figureIds": [
+      "party-positions-centering"
+    ],
+    "sourcePages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      22,
+      23,
+      24
+    ],
+    "sourceUrl": "https://priceschool.usc.edu/wp-content/uploads/2024/12/Caliskan-et-al.pdf"
+  },
+  {
+    "id": "global-falsehoods-local-patterns",
+    "paperId": "varieties-corona-news",
+    "title": "Shared narratives cross borders, while some content clusters locally",
+    "summary": "The paper finds a mix of global commonalities and country-group similarities in pandemic misinformation.",
+    "paragraphs": [
+      "A false claim can contain several topics at once. The first figure counts those overlaps: a story can connect a public figure, a purported cure and a claim about government in the same item. The source reports just over two topics per falsehood on average.",
+      "The country comparisons show that content from countries with very serious press-freedom problems is often more similar within that group. Yet many national characteristics have limited predictive value, and conspiracies are among the topics least able to distinguish country groups.",
+      "The wording also points to common ground: the paper finds no statistically significant differences between country groups in its unusual-word-group measure. These patterns motivate both local communication strategies and attention to narratives that circulate internationally."
+    ],
+    "limitations": [
+      "Fact-check records are a selected corpus rather than a census of every falsehood or every person exposed.",
+      "An item’s attributed country is not necessarily its original source.",
+      "Text similarity does not establish transmission, readership, belief or a causal effect of country characteristics."
+    ],
+    "figureIds": [
+      "corona-topic-cooccurrence",
+      "corona-press-freedom"
+    ],
+    "sourcePages": [
+      6,
+      7,
+      8,
+      9,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      25,
+      28,
+      29,
+      30
+    ],
+    "sourceUrl": "https://link.springer.com/content/pdf/10.1007/s42001-022-00193-5.pdf"
+  },
+  {
+    "id": "ohio-changing-pandemic-attention",
+    "paperId": "ohio-covid",
+    "title": "Public attention changed as the pandemic reached Ohio",
+    "summary": "The daily series separates changes in what people discussed from claims about why those changes occurred.",
+    "paragraphs": [
+      "The study gathers tweets from users across Ohio’s 88 counties and follows the first four months of 2020. It uses similarity to topic vocabularies to construct an awareness measure, alongside sentiment and emotion estimates.",
+      "The daily visualization shows a sharp increase in illness-related attention around March, with substantial pandemic discussion already occurring before Ohio’s first confirmed case. Vertical lines identify cases and policy dates so the reader can compare their timing.",
+      "The paper then analyzes county-level associations with cases and deaths. Those associations change across periods, which makes a static story about political attitudes and pandemic outcomes inadequate. The figure itself remains descriptive: the lines do not demonstrate a policy effect."
+    ],
+    "limitations": [
+      "Twitter users and their expressed posts do not represent every Ohio resident.",
+      "Awareness, sentiment and emotion are computational proxies rather than direct psychological measurements.",
+      "County-level patterns do not reveal an individual’s behavior or establish causality."
+    ],
+    "figureIds": [
+      "ohio-topic-awareness"
+    ],
+    "sourcePages": [
+      1,
+      8,
+      12,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "sourceUrl": "https://link.springer.com/content/pdf/10.1007/s42001-021-00111-1.pdf"
+  },
+  {
+    "id": "green-policy-crossing-elite-circles",
+    "paperId": "elite-networks-green-policy",
+    "title": "The wider circle matters",
+    "summary": "Looking beyond links among ministers brings professional and social bridges into the policy picture.",
+    "paragraphs": [
+      "A network made only of ministers misses many people who participate in policy discussions. The article therefore studies both ministers’ links to one another and their wider follow networks, using community structure to ask how much those circles connect.",
+      "The cross-country results associate stronger bridges and less isolated communities with higher renewable-energy shares and lower per-capita CO₂ emissions. These are associations in country comparisons, not a measured effect of adding a particular contact.",
+      "Thirty-seven interviews across seven countries add detail about how such connections work. Several Nordic cases feature informal contact, stable bureaucracies and careers that move across sectors. The Netherlands complicates a simple divide between higher- and lower-performing country groups."
+    ],
+    "limitations": [
+      "A Twitter follow is a proxy for a policy relationship, and Twitter participation varies sharply by country.",
+      "Cross-sectional network measures and averaged energy outcomes leave substantial scope for confounding and reverse causality.",
+      "The seven-country fieldwork helps interpret relationships but is not a representative causal test."
+    ],
+    "figureIds": [
+      "elite-networks-iceland",
+      "elite-networks-renewable-margins"
+    ],
+    "sourcePages": [],
+    "sourceUrl": "https://onlinelibrary.wiley.com/doi/10.1111/polp.12382"
+  }
+]

@@ -1,0 +1,304 @@
+{
+  "checkedAt": "2026-11-23T21:37:01.316Z",
+  "base": "http://127.0.0.1:5173",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "title": "CantayCaliskan"
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "title": "About me"
+    },
+    {
+      "route": "/cv",
+      "status": 200,
+      "title": "Curriculum vitae"
+    },
+    {
+      "route": "/games",
+      "status": 200,
+      "title": "Games"
+    },
+    {
+      "route": "/privacy",
+      "status": 200,
+      "title": "Privacy & analytics"
+    },
+    {
+      "route": "/research",
+      "status": 200,
+      "title": "Research"
+    },
+    {
+      "route": "/research-with-me",
+      "status": 200,
+      "title": "Research with me"
+    },
+    {
+      "route": "/research/across",
+      "status": 200,
+      "title": "ACROSS: Accessible Country-Relevant Outlier Selection System"
+    },
+    {
+      "route": "/research/algorithmic-emotions-book",
+      "status": 200,
+      "title": "Algorithmic Understanding of Emotions: Social Theories and Computational Applications"
+    },
+    {
+      "route": "/research/bbc-representation",
+      "status": 200,
+      "title": "Representation in Public Media: Six Years of Continuous Coverage of BBC News"
+    },
+    {
+      "route": "/research/bilateral-emotions",
+      "status": 200,
+      "title": "Bilateral Meetings, Bilateral Emotions: Predicting the Outcomes of Emotional Interactions Between Heads of Governments and States"
+    },
+    {
+      "route": "/research/campus-sustainability",
+      "status": 200,
+      "title": "What street-level imagery can and cannot tell us about campus sustainability: a measurement study of 252 U.S. campuses"
+    },
+    {
+      "route": "/research/coalition-talk-congress",
+      "status": 200,
+      "title": "Who’s Afraid of Coalition Talk? Strategic Alignment and Social Media Behavior of U.S. Congress Members"
+    },
+    {
+      "route": "/research/coalition-talk-europe",
+      "status": 200,
+      "title": "Who’s Afraid of Coalition Talk? Mapping Polarization Among Northern Europe’s Cabinets in a Coevolving Latent Space"
+    },
+    {
+      "route": "/research/congress-hashtag-diffusion",
+      "status": 200,
+      "title": "Information Diffusion in Congress: The Role of Hashtag Networks"
+    },
+    {
+      "route": "/research/devise",
+      "status": 200,
+      "title": "DEVISE: Depth-Aware Vegetation Indexing System"
+    },
+    {
+      "route": "/research/dynamic-networks-sgd",
+      "status": 200,
+      "title": "Stochastic Gradient Descent-based Inference for Dynamic Network Models with Attractors"
+    },
+    {
+      "route": "/research/elite-networks-chapter",
+      "status": 200,
+      "title": "Elite Networks"
+    },
+    {
+      "route": "/research/elite-networks-green-policy",
+      "status": 200,
+      "title": "The Influence of Elite Networks on Green Policy Making"
+    },
+    {
+      "route": "/research/emotional-displays-bilateral",
+      "status": 200,
+      "title": "Emotional Displays and Bilateral Relations: Evidence from 1,178 Filmed Meetings of American Presidents"
+    },
+    {
+      "route": "/research/faces-diplomacy",
+      "status": 200,
+      "title": "Faces of Diplomacy: A Corpus of Filmed Meetings between American Presidents and Foreign Leaders"
+    },
+    {
+      "route": "/research/fight-flight-fox",
+      "status": 200,
+      "title": "Fight or Flight on Fox?: Partisan Fear Responses on U.S. Cable News Shows"
+    },
+    {
+      "route": "/research/game-upgrades",
+      "status": 200,
+      "title": "Quality You Can Hear and See: Multimodal Assessments of Video Game Upgrades and Market Performance"
+    },
+    {
+      "route": "/research/global-companies-emerging-markets",
+      "status": 200,
+      "title": "Global Companies and Emerging Market Countries"
+    },
+    {
+      "route": "/research/halalllm-kosherllm",
+      "status": 200,
+      "title": "HalalLLM vs. KosherLLM: When Abrahamic Scholars Confront Modern Questions through AI"
+    },
+    {
+      "route": "/research/harmonic-synergy",
+      "status": 200,
+      "title": "Harmonic Synergy: Evaluating Ensemble Music Quality"
+    },
+    {
+      "route": "/research/imagined-congress",
+      "status": 200,
+      "title": "The Imagined Congress: What Generative AI Models Think U.S. Politicians Look Like"
+    },
+    {
+      "route": "/research/judges-emotions",
+      "status": 200,
+      "title": "Do Judges Have Emotions? What AI Sees at the European Court of Human Rights"
+    },
+    {
+      "route": "/research/judicial-voice",
+      "status": 200,
+      "title": "Who Speaks at the Court? Bench Roles, Language, and Judicial Voice at the European Court of Human Rights"
+    },
+    {
+      "route": "/research/keep-calm-election",
+      "status": 200,
+      "title": "Keep Calm and Lose the Election: A Machine Learning Approach to Emotions in Presidential Debates"
+    },
+    {
+      "route": "/research/kippas-keffiyehs",
+      "status": 200,
+      "title": "Kippas and Keffiyehs: Measuring Political Polarization in Israel through Interactions between Jewish and Arab Citizens"
+    },
+    {
+      "route": "/research/lawn-landslide",
+      "status": 200,
+      "title": "From Lawn to Landslide: Forecasting Election Outcomes Using Political Yard Signs"
+    },
+    {
+      "route": "/research/legopolitics",
+      "status": 200,
+      "title": "Legopolitics: Toying with the Enemy — Ludic Framing in Pro-Iranian Wartime Propaganda"
+    },
+    {
+      "route": "/research/lumos",
+      "status": 200,
+      "title": "LUMOS: LLM-based Universal Measure of Salience"
+    },
+    {
+      "route": "/research/multimodal-finance",
+      "status": 200,
+      "title": "LLM-Driven Multimodal Finance: Finally Giving Main Street an Unfair Advantage?"
+    },
+    {
+      "route": "/research/network-modeling-chapter",
+      "status": 200,
+      "title": "Network Modeling: Historical Perspectives, Agent-Based Modeling, Correlation Networks, and Network Similarities"
+    },
+    {
+      "route": "/research/ohio-covid",
+      "status": 200,
+      "title": "How does “A Bit of Everything American” state feel about COVID-19? A quantitative Twitter analysis of the pandemic in Ohio"
+    },
+    {
+      "route": "/research/partisan-visibility",
+      "status": 200,
+      "title": "The Address of the Party: Measuring Partisan Visibility in Turkey"
+    },
+    {
+      "route": "/research/party-positions",
+      "status": 200,
+      "title": "Using Generative AI to Calculate Party Positions: A Comparison of Human Experts and Large Language Models"
+    },
+    {
+      "route": "/research/pixels-past",
+      "status": 200,
+      "title": "Pixels of the Past: Evaluating Historical Accuracy with Vision-Language Models"
+    },
+    {
+      "route": "/research/playable-past",
+      "status": 200,
+      "title": "Measuring the Playable Past: Evaluating Architectural Accuracy in Assassin’s Creed, Age of Empires, and Battlefield"
+    },
+    {
+      "route": "/research/playable-past-book",
+      "status": 200,
+      "title": "The Playable Past: Fidelity, History, and Video Games"
+    },
+    {
+      "route": "/research/political-symbols-amenities",
+      "status": 200,
+      "title": "Political Symbols and Urban Amenities: The Spatial Logic of Flag Placement in Istanbul"
+    },
+    {
+      "route": "/research/politics-visibility-istanbul",
+      "status": 200,
+      "title": "The Politics of Visibility: Party Symbols, Alliances, and Electoral Returns in Istanbul’s Mahalles"
+    },
+    {
+      "route": "/research/positive-negative-partisanship",
+      "status": 200,
+      "title": "Disentangling positive and negative partisanship in social media interactions using a coevolving latent space network with attractors model"
+    },
+    {
+      "route": "/research/resurrecting-theology",
+      "status": 200,
+      "title": "Resurrecting Theology: When Historical Scholars Confront the Modern World Through AI"
+    },
+    {
+      "route": "/research/simcitynet",
+      "status": 200,
+      "title": "SimCityNet: Quantifying Geo-Cultural Bias in AI-Generated Urban Videos through Interpretable Scene Embeddings"
+    },
+    {
+      "route": "/research/social-media-democracy-review",
+      "status": 200,
+      "title": "Review of Social Media and Democracy: The State of the Field, Prospects for Reform"
+    },
+    {
+      "route": "/research/spatial-islamophobia",
+      "status": 200,
+      "title": "The Spatial Politics of Islamophobia: Measuring Social Distance Around Visible Muslim Identity in Europe"
+    },
+    {
+      "route": "/research/threat-vocalisations",
+      "status": 200,
+      "title": "Threat Vocalisations are Acoustically Similar between Humans (Homo sapiens) and Chimpanzees (Pan troglodytes)"
+    },
+    {
+      "route": "/research/varieties-corona-news",
+      "status": 200,
+      "title": "Varieties of corona news: a cross-national study on the foundations of online misinformation production during the COVID-19 pandemic"
+    },
+    {
+      "route": "/research/varieties-tourism",
+      "status": 200,
+      "title": "Varieties of Tourism: Understanding the Politics of Tourism Through the Quantification of Visual Element Saliency"
+    },
+    {
+      "route": "/research/veiled-metrics",
+      "status": 200,
+      "title": "Measuring political polarization through visible interactions between religious and non-religious citizens"
+    },
+    {
+      "route": "/research/victim-assistance",
+      "status": 200,
+      "title": "Victim Assistance Using Large Language Models: The Case of a Massive Earthquake in Hatay, Turkey"
+    },
+    {
+      "route": "/research/visible-state-party",
+      "status": 200,
+      "title": "The Visible State and the Visible Party: Political Power in Everyday Public Space"
+    },
+    {
+      "route": "/research/waving-flag",
+      "status": 200,
+      "title": "Waving the Flag: Measuring Nationalism Through National Symbols Across Europe"
+    },
+    {
+      "route": "/teaching",
+      "status": 200,
+      "title": "Teaching"
+    }
+  ],
+  "catalogEntries": 49,
+  "ssrnEntries": 22,
+  "fullTextsReviewed": 28,
+  "figureCount": 47,
+  "assetCount": 70,
+  "analyticsConfigured": false,
+  "writerUnauthorizedStatus": 503,
+  "driveSource": {
+    "status": 200,
+    "validPdf": true,
+    "checksumMatchesHeader": true
+  },
+  "failures": []
+}

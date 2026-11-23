@@ -1,0 +1,165 @@
+[
+  {
+    "id": "veiled-metrics",
+    "summary": "Street videos from Turkey are used to estimate relative distances between pedestrians with different visible gender and religious-attire categories. Same-group pairs, especially women classified as religious, tend to be closer; the published article explicitly distinguishes these spatial patterns from proof of political hostility.",
+    "question": "When do visible social boundaries also appear in the distances between people?",
+    "findings": [
+      "The study samples 178,413 frames from 1,439 publicly available street videos; its manually annotated training corpus contains 7,450 frames and more than 27,000 labeled people.",
+      "The main four-category detector reports mAP50 of 0.581; combining categories improves performance relative to the more detailed eight-category model.",
+      "Pairs classified as religious women have consistently smaller normalized distances than the cross-group reference in the main specifications.",
+      "The final article states that social distance, homophily and polarization are related but distinct: physical spacing alone does not establish hostility or ideological extremity."
+    ],
+    "fullTextReviewed": true,
+    "sourceBasis": "Final 32-page Scientific Reports version of record downloaded and reviewed, including classification validation, distance normalization, main estimates and the expanded conceptual-clarification/limitations sections. Figures come from this final published version, not the 55-page July 2024 SSRN preprint. Publication status and verified final author order are preserved. Relative distance units are not calibrated meters; attire categories are visual proxies rather than verified beliefs.",
+    "sourceUrls": [
+      "https://www.nature.com/articles/s41598-025-01307-5",
+      "https://www.nature.com/articles/s41598-025-01307-5.pdf"
+    ],
+    "links": [
+      {
+        "label": "Full article",
+        "url": "https://www.nature.com/articles/s41598-025-01307-5"
+      },
+      {
+        "label": "Publisher PDF",
+        "url": "https://www.nature.com/articles/s41598-025-01307-5.pdf"
+      },
+      {
+        "label": "SSRN",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4907046"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1038/s41598-025-01307-5"
+      }
+    ]
+  },
+  {
+    "id": "party-positions",
+    "summary": "Five language models code 140,432 manifesto segments from Germany, the United Kingdom and the United States. Their estimated left–right positions track the human benchmark but generally compress the ideological range toward the center.",
+    "question": "Can a model track party positions accurately while still making parties look more moderate?",
+    "findings": [
+      "The July 2024 manuscript compares 84 manifestos containing 140,432 segments, using the same detailed Manifesto Project coding scheme for humans and models.",
+      "ChatGPT 3.5 has the highest reported correlation with the human RILE index (0.86) and the lowest reported RMSE (11.83) among the five models tested.",
+      "The scatterplot shows flatter fitted relationships than the identity line: left- and right-leaning manifestos are generally estimated less extremely than the benchmark.",
+      "The authors identify cases where human and model segment codes both have plausible interpretations; disagreement alone does not prove that the model is wrong."
+    ],
+    "fullTextReviewed": true,
+    "sourceBasis": "Complete 53-page SSRN manuscript dated 26 July 2024 downloaded through the normal SSRN flow and reviewed, including coding prompt, model setup, 84-manifesto results and supplementary country/party comparisons. This is the same dated manuscript linked by USC, not a verified final published PDF; original published status and final catalog author order are retained. Source Figure 3 is explicitly labeled as this manuscript version. The 34 MiB SSRN PDF remains outside the deployment; use the authoritative USC full-text URL.",
+    "sourceUrls": [
+      "https://priceschool.usc.edu/wp-content/uploads/2024/12/Caliskan-et-al.pdf",
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4907043",
+      "https://doi.org/10.1561/113.00000126"
+    ],
+    "links": [
+      {
+        "label": "Publisher",
+        "url": "https://www.nowpublishers.com/article/Details/PIP-0126"
+      },
+      {
+        "label": "Open manuscript",
+        "url": "https://priceschool.usc.edu/wp-content/uploads/2024/12/Caliskan-et-al.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1561/113.00000126"
+      },
+      {
+        "label": "SSRN",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4907043"
+      }
+    ]
+  },
+  {
+    "id": "varieties-corona-news",
+    "summary": "A cross-national analysis compares topics and wording in 10,131 fact-checked COVID-19 falsehoods from 129 countries. Some country groups share more similar content, especially those with serious press-freedom problems or low human development, while conspiracy-related themes cross national boundaries.",
+    "question": "Which parts of pandemic misinformation travel globally, and which vary across countries?",
+    "findings": [
+      "The published study covers January 2020–February 2021 and compares countries using 14 social, economic, political and informational variables.",
+      "Topics often appear together: the source heatmap reports 2.165 topics per falsehood on average, with up to eight in one observation.",
+      "Content is especially similar within the groups with very serious press-freedom problems and low human development; national characteristics offer limited overall predictive support.",
+      "Conspiracies are among the least useful topics for distinguishing country groups. The word-group unusualness measure does not differ significantly across the compared groups."
+    ],
+    "fullTextReviewed": true,
+    "sourceBasis": "Full final Springer article reviewed, including topic coding, similarity measures, country comparisons and discussion. All source figures use the published version (online 13 December 2022; print 2023), rather than the earlier 60-page SSRN submission. Country attribution is from fact-check records and does not establish the true origin of an item; observational comparisons do not identify causal effects of censorship, official announcements or national traits.",
+    "sourceUrls": [
+      "https://link.springer.com/content/pdf/10.1007/s42001-022-00193-5.pdf",
+      "https://doi.org/10.1007/s42001-022-00193-5"
+    ],
+    "links": [
+      {
+        "label": "Publisher",
+        "url": "https://link.springer.com/article/10.1007/s42001-022-00193-5"
+      },
+      {
+        "label": "Full article",
+        "url": "https://link.springer.com/content/pdf/10.1007/s42001-022-00193-5.pdf"
+      },
+      {
+        "label": "SSRN",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4021264"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1007/s42001-022-00193-5"
+      }
+    ]
+  },
+  {
+    "id": "ohio-covid",
+    "summary": "More than 46 million tweets from over 91,000 users in Ohio are used to trace pandemic-related attention, sentiment and emotion. The study compares these county-level measures with COVID-19 cases and deaths during the first four months of 2020.",
+    "question": "How did the subjects of public conversation change as the pandemic reached Ohio?",
+    "findings": [
+      "The dataset covers all 88 Ohio counties from 1 January to 30 April 2020.",
+      "The topic-awareness series rises sharply around March as pandemic discussion becomes more prominent; its policy markers show timing rather than measured policy effects.",
+      "Associations between partisan-topic measures and pandemic outcomes differ between the pre-first-case and post-stay-at-home periods. These are county-level relationships."
+    ],
+    "fullTextReviewed": true,
+    "sourceBasis": "Full final Springer article reviewed, including the word-embedding awareness measure, emotion-classification model, pooled OLS and System-GMM specifications, descriptive figures and stated operationalization limits. Source Figure 8 is from the version of record (online April 2021; print 2022). County-level associations cannot establish individual attitudes or causal effects of political identity or public-health policy.",
+    "sourceUrls": [
+      "https://link.springer.com/content/pdf/10.1007/s42001-021-00111-1.pdf",
+      "https://doi.org/10.1007/s42001-021-00111-1"
+    ],
+    "links": [
+      {
+        "label": "Publisher",
+        "url": "https://link.springer.com/article/10.1007/s42001-021-00111-1"
+      },
+      {
+        "label": "Full article",
+        "url": "https://link.springer.com/content/pdf/10.1007/s42001-021-00111-1.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1007/s42001-021-00111-1"
+      }
+    ]
+  },
+  {
+    "id": "elite-networks-green-policy",
+    "summary": "The article combines ministers’ Twitter networks in 34 countries with interviews across seven Northern European countries to examine green-policy outcomes. Stronger connections across elite communities are associated with higher renewable-energy consumption and lower per-capita carbon emissions.",
+    "question": "Do connections across professional and political circles matter for green policy?",
+    "findings": [
+      "Cross-country models compare ministers’ wider follow networks and ministers-only networks with renewable-energy shares and per-capita CO₂ emissions.",
+      "In the wider networks, lower modularity and stronger links across communities are associated with higher renewable-energy consumption and lower emissions; uncertainty varies across specifications.",
+      "The qualitative component includes 37 interviews across Sweden, Denmark, Norway, Iceland, Ireland, Belgium and the Netherlands.",
+      "Interviews describe more informal cross-sector contact in several higher-performing Nordic cases; the Netherlands is an exception to a simple two-group comparison."
+    ],
+    "fullTextReviewed": true,
+    "sourceBasis": "Complete final Wiley main article and Appendix A read through the ordinary browser’s University of Rochester Library full-access session, including hypotheses, data, methods, all regression tables, fieldwork and conclusions. This is the final Politics & Policy 48(6), 1104–1137 article, not the earlier dissertation chapter. Full text is linked at the publisher and is not rehosted. Follow networks proxy policy relationships; country comparisons, unequal Twitter participation and averaged outcomes do not establish causal influence.",
+    "sourceUrls": [
+      "https://onlinelibrary.wiley.com/doi/10.1111/polp.12382",
+      "https://doi.org/10.1111/polp.12382"
+    ],
+    "links": [
+      {
+        "label": "Full article at publisher",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/polp.12382"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1111/polp.12382"
+      }
+    ]
+  }
+]

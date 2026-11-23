@@ -1,0 +1,78 @@
+[
+  {
+    "id": "lumos",
+    "summary": "LUMOS tests whether multimodal language models can locate the salient object in an image. Asking for a bounding box works much better than asking for a polygon, and a separate segmentation model can sharpen a good localization; specialized saliency models still perform better in the reported benchmark.",
+    "question": "How much does the way we ask a model to point change what it finds?",
+    "findings": [
+      "The prompt-format comparison reports mean intersection-over-union of 31.1% for polygons and 56.6% for boxes.",
+      "Qwen2.5-VL improves from 55.8% overlap with box prompting to 88.6% after Segment Anything mask refinement; the three specialized saliency baselines reach 96.6–97.8% under the paper’s protocol.",
+      "Refinement helps models that place useful boxes; it gives little benefit when the initial localization is wrong.",
+      "Unparsable responses are excluded from metric calculations, and evaluated sample counts differ by model. The benchmark measures overlap with salient-object annotations, rather than direct eye-tracking attention."
+    ],
+    "fullTextReviewed": true,
+    "sourceBasis": "Full SSRN manuscript downloaded through the ordinary authorized browser UI on 23 November 2026 and reviewed locally, including methods, results, discussion, and relevant appendices. 28-page manuscript dated 24 February 2026. Main results and valid-output denominators in Tables 3–4 (PDF p6), prompt parsing/exclusion rules p4, discussion pp6–7, qualitative examples pp10–24, toolkit and usage appendix pp25–28. Forthcoming proceedings status remains from the latest CV.",
+    "links": [
+      {
+        "label": "Full paper",
+        "url": "/papers/lumos.pdf"
+      }
+    ]
+  },
+  {
+    "id": "across",
+    "summary": "ACROSS combines five outlier-detection and scaling strategies to find unusual country-level observations. On a benchmark built from political-science case studies, it recovers more known outliers than the tested individual methods or Cook’s distance, while also suggesting new cases for closer substantive investigation.",
+    "question": "Which unusual countries do familiar statistical diagnostics miss?",
+    "findings": [
+      "The comparison evaluates 33 algorithms and 163 method–normalization pairs against 14 literature-derived outlier-detection tasks.",
+      "The final ensemble flags an observation when at least one of five selected method–normalization pairs flags it; mean recall is about 0.54, versus about 0.15 for the Cook’s distance baseline.",
+      "Normalization changes performance substantially: robust scaling raises CBLOF’s reported improvement over Cook’s distance from about 32% to about 87%.",
+      "The known-outlier labels are incomplete and the empirical tasks use one to three dimensions. Additional flagged observations are research leads, and broader generalization requires further validation."
+    ],
+    "fullTextReviewed": true,
+    "sourceBasis": "Full SSRN manuscript downloaded through the ordinary authorized browser UI on 23 November 2026 and reviewed locally, including methods, results, discussion, and relevant appendices. 51-page manuscript dated 28 December 2024. Benchmark construction pp8–15; incomplete-label caveat p15; sensitivity analysis pp16–17; new candidate outliers pp18–20; final maximum-vote ensemble pp20–22; comparison Table 4 p22; appendix tables and code pp32–51. Forthcoming journal status remains from the CV. The 14 tasks include two U.S. cases and should not be marketed as 14 unique countries.",
+    "links": [
+      {
+        "label": "Full paper",
+        "url": "/papers/across.pdf"
+      }
+    ]
+  },
+  {
+    "id": "devise",
+    "summary": "DEVISE measures street-level greenery by combining vegetation segmentation, color filtering, and estimated depth. Its application to an archive of 1.44 million panoramas explores the relationship between visible vegetation and electoral preferences in U.S. swing counties, with results interpreted as observational associations.",
+    "question": "How should a nearby tree and distant greenery contribute to the same measurement?",
+    "findings": [
+      "The pipeline separates trees, grass, and other plants, filters the masks using color information, and weights vegetation using estimated proximity to the viewer.",
+      "The application reports 1,441,746 panoramas collected for a 60-county swing-county sampling frame; actual coverage is uneven across counties and election-year months.",
+      "In the social-controls and fixed-effects models, recent Democratic vote share is positively associated with depth-adjusted grass and total greenery, while the tree-canopy coefficient is not statistically clear.",
+      "The regression tables use 174 county–date observations in the basic specification and 62 with social controls. These associations do not establish that voting patterns caused vegetation changes."
+    ],
+    "fullTextReviewed": true,
+    "sourceBasis": "Full SSRN manuscript downloaded through the ordinary authorized browser UI on 23 November 2026 and reviewed locally, including methods, results, discussion, and relevant appendices. 36-page manuscript dated 29 July 2025. Pipeline pp6–12, sampling and coverage pp13–17, model/results pp18–24 and Tables 2–4 pp22–23, appendix code pp27–36. Table 1 p15 shows uneven and empty cells, including no 2004 imagery. Abstract says 20-m spacing, while methods p13 say 50 m; no spacing claim is repeated on the site. Cover lists Junjie Zhao before Mingzhen Zhang.",
+    "links": [
+      {
+        "label": "Full paper",
+        "url": "/papers/devise.pdf"
+      }
+    ]
+  },
+  {
+    "id": "halalllm-kosherllm",
+    "summary": "Three language models answer modern survey questions while prompted as twelve thinkers from Abrahamic traditions and supplied with retrieved texts. Aggregate means look similar, but median and modal response patterns differ across models, showing that a generated historical persona depends on the system used to construct it.",
+    "question": "Does changing the language model change the historical thinker it appears to reconstruct?",
+    "findings": [
+      "The design crosses twelve scholar personas, three language models, and 290 World Values Survey items, with five response rounds per model and scholar.",
+      "The reported repeated-measures tests find model differences in median and modal responses, while the mean comparison is not statistically significant.",
+      "Cross-religion aggregate comparisons have confidence intervals that include zero; the paper does not establish distinct, reliably separated religious value profiles.",
+      "These are generated survey profiles, not recovered historical answers. Numerical recoding, imputation, mixed item scales, and the small selected set of scholars limit interpretations of aggregate scores."
+    ],
+    "fullTextReviewed": true,
+    "sourceBasis": "Full SSRN manuscript downloaded through the ordinary authorized browser UI on 23 November 2026 and reviewed locally, including methods, results, discussion, and relevant appendices. 31-page manuscript. RAG and cleaning rules pp8–10; exploratory mapping pp10–11; statistical strategy pp12–15; discussion pp15–16; corpus and 290-item appendix pp18–28; response heatmaps pp29–31. The owner explicitly confirmed Ciarrah Wang as the correct coauthor name despite the downloaded cover reading Xinran Wang; retain the owner-confirmed spelling. No claim of historically authenticated beliefs or religious rankings is made.",
+    "links": [
+      {
+        "label": "Full paper",
+        "url": "/papers/halalllm-kosherllm.pdf"
+      }
+    ]
+  }
+]

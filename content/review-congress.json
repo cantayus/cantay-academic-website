@@ -1,0 +1,30 @@
+[
+  {
+    "id": "imagined-congress",
+    "summary": "The study compares portraits from three image generators with verified characteristics of U.S. legislators, varying which information is included in each prompt. A common facial-analysis pipeline finds systematic differences even with full-information prompts, and masking changes those differences unevenly across demographic groups.",
+    "question": "What do image generators assume about political representatives when a prompt leaves something out?",
+    "findings": [
+      "The design compares DALL·E 3, Stable Diffusion and Adobe Firefly using full-information prompts and prompts that omit age, gender, race, ideology or legislative experience.",
+      "The generated portraits’ classifier-estimated ages are concentrated well below the legislators’ verified ages, including under the full-information prompt.",
+      "For legislators recorded as women, masking generally lowers the share of outputs classified as women relative to the full-information baseline; the corresponding shifts for legislators recorded as men are smaller.",
+      "The additional age shift under masking becomes more negative with longer legislative tenure, contrary to the paper’s initial “elder statesman” expectation.",
+      "Differences across platforms depend on the attribute and prompt condition; the platform comparison does not show that more safety curation uniformly produces more faithful portraits."
+    ],
+    "fullTextReviewed": true,
+    "sourceBasis": "Complete 100-page public SSRN manuscript downloaded through the ordinary SSRN browser flow and reviewed, including prompt design, feature extraction, three comparison designs, main findings, supplemental figures and all regression tables. No final journal publication is claimed. The large original remains in Downloads; authoritative SSRN links provide access. Findings describe classifier-estimated appearance in this research setup, not the subjects’ identities, voters’ reactions or a causal effect of a platform’s safety policy.",
+    "sourceUrls": [
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6611178",
+      "https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=6611178&mirid=1"
+    ],
+    "links": [
+      {
+        "label": "Read on SSRN",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6611178"
+      },
+      {
+        "label": "Full manuscript (SSRN)",
+        "url": "https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=6611178&mirid=1"
+      }
+    ]
+  }
+]

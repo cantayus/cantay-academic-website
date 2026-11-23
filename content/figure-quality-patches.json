@@ -1,0 +1,58 @@
+[
+  {
+    "id": "party-office-geography",
+    "src": "/research/party-office-geography.svg",
+    "width": 1950,
+    "height": 746,
+    "format": "svg",
+    "qualityNote": "Original PDF vectors exported as SVG with font outlines and the existing figure crop; axes, labels and legends preserved. Embedded raster panels retain their genuine source resolution; only vector content scales without a pixel limit."
+  },
+  {
+    "id": "theology-scholars-map",
+    "src": "/research/theology-scholars-map.svg",
+    "width": 1709,
+    "height": 1338,
+    "format": "svg",
+    "qualityNote": "Original PDF vectors exported as SVG with font outlines and the existing figure crop; axes, labels and legends preserved."
+  },
+  {
+    "id": "theology-cultural-map",
+    "src": "/research/theology-cultural-map.svg",
+    "width": 1709,
+    "height": 1405,
+    "format": "svg",
+    "qualityNote": "Original PDF vectors exported as SVG with font outlines and the existing figure crop; axes, labels and legends preserved."
+  },
+  {
+    "id": "court-hearing-timeline",
+    "src": "/research/court-hearing-timeline.svg",
+    "width": 1950,
+    "height": 1158,
+    "format": "svg",
+    "qualityNote": "Original PDF vectors exported as SVG with font outlines and the existing figure crop; axes, labels and legends preserved."
+  },
+  {
+    "id": "court-bench-roles",
+    "src": "/research/court-bench-roles.svg",
+    "width": 1950,
+    "height": 825,
+    "format": "svg",
+    "qualityNote": "Original PDF vectors exported as SVG with font outlines and the existing figure crop; axes, labels and legends preserved."
+  },
+  {
+    "id": "court-seating",
+    "src": "/research/court-seating.svg",
+    "width": 1938,
+    "height": 500,
+    "format": "svg",
+    "qualityNote": "Original PDF vectors exported as SVG with font outlines and the existing figure crop; axes, labels and legends preserved."
+  },
+  {
+    "id": "judges-emotions-camera-angle",
+    "src": "/research/judges-emotions-camera-angle.svg",
+    "width": 752,
+    "height": 887,
+    "format": "svg",
+    "qualityNote": "Original PDF vectors exported as SVG with font outlines and the existing figure crop; axes, labels and legends preserved. Embedded raster panels retain their genuine source resolution; only vector content scales without a pixel limit."
+  }
+]

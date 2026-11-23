@@ -1,0 +1,222 @@
+[
+  {
+    "id": "campus-sustainability",
+    "ssrnId": "7733838",
+    "title": "What street-level imagery can and cannot tell us about campus sustainability: a measurement study of 252 U.S. campuses",
+    "downloadedFile": "<downloads>/ssrn-7733838.pdf",
+    "pages": 92,
+    "bytes": 8433583,
+    "sha256": "c12d8c2592f84fa7dd2adcdafad3d6758facae7072e95e0a19dde256f7ffea81",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7733838"
+  },
+  {
+    "id": "resurrecting-theology",
+    "ssrnId": "7733918",
+    "title": "Resurrecting Theology: When Historical Scholars Confront the Modern World Through AI",
+    "downloadedFile": "<downloads>/ssrn-7733918.pdf",
+    "pages": 56,
+    "bytes": 1189473,
+    "sha256": "46455e2c1ebee137a15991af32910e6aa09cea3ffa4e3b31e42b2369269498ba",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7733918"
+  },
+  {
+    "id": "partisan-visibility",
+    "ssrnId": "7733958",
+    "title": "The Address of the Party: Measuring Partisan Visibility in Turkey",
+    "downloadedFile": "<downloads>/ssrn-7733958.pdf",
+    "pages": 52,
+    "bytes": 9745300,
+    "sha256": "a52dba0f531931f652bf069b766dd4b4bd93bf8da1dbf877afd05789d370ae32",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7733958"
+  },
+  {
+    "id": "judicial-voice",
+    "ssrnId": "7743340",
+    "title": "Who Speaks at the Court? Bench Roles, Language, and Judicial Voice at the European Court of Human Rights",
+    "downloadedFile": "<downloads>/ssrn-7743340.pdf",
+    "pages": 71,
+    "bytes": 1546027,
+    "sha256": "56f4d9ea1c1b67b182ca7e69ca1fceb864f6a17d3d8b205a3b2b78f2c7d46eb8",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7743340"
+  },
+  {
+    "id": "lumos",
+    "ssrnId": "6296858",
+    "title": "LUMOS: LLM-based Universal Measure of Salience",
+    "downloadedFile": "<downloads>/ssrn-6296858.pdf",
+    "pages": 28,
+    "bytes": 25499821,
+    "sha256": "0a279a63f61be90a61ce3c9dbf5eaf5ddd642da0b1f48715343168b4c8ad47ab",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6296858"
+  },
+  {
+    "id": "victim-assistance",
+    "ssrnId": "5415614",
+    "title": "Victim Assistance Using Large Language Models: The Case of a Massive Earthquake in Hatay, Turkey",
+    "downloadedFile": "<downloads>/ssrn-5415614 (1).pdf",
+    "pages": 49,
+    "bytes": 31503304,
+    "sha256": "117ef65c0bc619dc60ff09aef785c5e06f33c6017ab5e24cc531424643071301",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5415614"
+  },
+  {
+    "id": "across",
+    "ssrnId": "5074429",
+    "title": "ACROSS: Accessible Country-Relevant Outlier Selection System",
+    "downloadedFile": "<downloads>/ssrn-5074429.pdf",
+    "pages": 51,
+    "bytes": 2352843,
+    "sha256": "5e4665215089507f799ada5543815b0a7577976900e7db6f4503e6c204f6dda8",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5074429"
+  },
+  {
+    "id": "party-positions",
+    "ssrnId": "4907043",
+    "title": "Using Generative AI to Calculate Party Positions: A Comparison of Human Experts and Large Language Models",
+    "downloadedFile": "<downloads>/ssrn-4907043.pdf",
+    "pages": 53,
+    "bytes": 35449832,
+    "sha256": "b46a91aa9ed80097abe3cd27714e54b52a320b3fb15308d952513afbf895cc0c",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4907043"
+  },
+  {
+    "id": "veiled-metrics",
+    "ssrnId": "4907046",
+    "title": "Measuring political polarization through visible interactions between religious and non-religious citizens",
+    "downloadedFile": "<downloads>/ssrn-4907046.pdf",
+    "pages": 55,
+    "bytes": 18057934,
+    "sha256": "cc3225403b0fdc084cf682ffaaedabd4c9b46f7cfb448e9e78f66890c8da18b2",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4907046"
+  },
+  {
+    "id": "varieties-corona-news",
+    "ssrnId": "4021264",
+    "title": "Varieties of corona news: a cross-national study on the foundations of online misinformation production during the COVID-19 pandemic",
+    "downloadedFile": "<downloads>/ssrn-4021264.pdf",
+    "pages": 60,
+    "bytes": 8389070,
+    "sha256": "883b066bd2069494f7298910ffa69e59deab1456ace5703f20b7f7b49ebfe9d3",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4021264"
+  },
+  {
+    "id": "judges-emotions",
+    "ssrnId": "7712078",
+    "title": "Do Judges Have Emotions? What AI Sees at the European Court of Human Rights",
+    "downloadedFile": "<downloads>/ssrn-7712078.pdf",
+    "pages": 87,
+    "bytes": 3525214,
+    "sha256": "ab22b2f72894cab9e4ebb0ba28b517272282cab4121260e3b54dbbbda5e378bf",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7712078"
+  },
+  {
+    "id": "legopolitics",
+    "ssrnId": "7667619",
+    "title": "Legopolitics: Toying with the Enemy Ludic Framing in Pro-Iranian Wartime Propaganda",
+    "downloadedFile": "<downloads>/ssrn-7667619.pdf",
+    "pages": 65,
+    "bytes": 5809114,
+    "sha256": "76841d3504572b796e63fbdd5aaf613432de8c351d89a93be132a7ead8efdf66",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7667619"
+  },
+  {
+    "id": "playable-past",
+    "ssrnId": "6855021",
+    "title": "Measuring the Playable Past: Evaluating Architectural Accuracy in Assassin’s Creed, Age of Empires, and Battlefield",
+    "downloadedFile": "<downloads>/ssrn-6855021.pdf",
+    "pages": 59,
+    "bytes": 29970111,
+    "sha256": "3ab980926d2796eba6ad483fff112b2a47981a36a264eeea28a28cca79f35311",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6855021"
+  },
+  {
+    "id": "coalition-talk-europe",
+    "ssrnId": "6561898",
+    "title": "Who’s Afraid of Coalition Talk? Mapping Polarization Among Northern Europe’s Cabinets in a Coevolving Latent Space",
+    "downloadedFile": "<downloads>/ssrn-6561898.pdf",
+    "pages": 37,
+    "bytes": 10232109,
+    "sha256": "3357358a9ce05a1cd3e12677ef4a550d3163b30c41ebb053ce694f491a13dead",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6561898"
+  },
+  {
+    "id": "kippas-keffiyehs",
+    "ssrnId": "5415636",
+    "title": "Kippas and Keffiyehs: Measuring Political Polarization in Israel through Interactions between Jewish and Arab Citizens",
+    "downloadedFile": "<downloads>/ssrn-5415636.pdf",
+    "pages": 45,
+    "bytes": 18333096,
+    "sha256": "58392f9857c57c56fcd8e323d053d94b748da9438376742c512802a6851e8626",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5415636"
+  },
+  {
+    "id": "politics-visibility-istanbul",
+    "ssrnId": "5369441",
+    "title": "The Politics of Visibility: Party Symbols, Alliances, and Electoral Returns in Istanbul’s Mahalles",
+    "downloadedFile": "<downloads>/ssrn-5369441 (1).pdf",
+    "pages": 55,
+    "bytes": 5283706,
+    "sha256": "93b2a3a335e8ba836519c3bd37234a65b9c7648237793c9e7aeee0d59fc293a4",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5369441"
+  },
+  {
+    "id": "halalllm-kosherllm",
+    "ssrnId": "5372878",
+    "title": "HalalLLM vs. KosherLLM: When Abrahamic Scholars Confront Modern Questions through AI",
+    "downloadedFile": "<downloads>/ssrn-5372878.pdf",
+    "pages": 31,
+    "bytes": 1077341,
+    "sha256": "d8c86e7d17668d974ccaafba7a3ae4dc87052b10b18b01a46110073d787b33e0",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5372878"
+  },
+  {
+    "id": "simcitynet",
+    "ssrnId": "5369073",
+    "title": "SimCityNet: Quantifying Geo-Cultural Bias in AI-Generated Urban Videos through Interpretable Scene Embeddings",
+    "downloadedFile": "<downloads>/ssrn-5369073 (1).pdf",
+    "pages": 27,
+    "bytes": 838768,
+    "sha256": "3e53a7d9e8ae97c031de4c7b7bf2f0f708775cb6ca0894fdaf43f97d6b6b55a2",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5369073"
+  },
+  {
+    "id": "devise",
+    "ssrnId": "5371210",
+    "title": "DEVISE: Depth-Aware Vegetation Indexing System",
+    "downloadedFile": "<downloads>/ssrn-5371210.pdf",
+    "pages": 36,
+    "bytes": 764389,
+    "sha256": "b77f2404e4fb9982b79af8637bdc7b19d82ea05fae4c20e52c32dc15d15a32b0",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5371210"
+  },
+  {
+    "id": "fight-flight-fox",
+    "ssrnId": "4204973",
+    "title": "Fight or Flight on Fox?: Partisan Fear Responses on U.S. Cable News Shows",
+    "downloadedFile": "<downloads>/ssrn-4204973.pdf",
+    "pages": 38,
+    "bytes": 5717734,
+    "sha256": "fd47d1e9e09be740880046682d68f2ca41f13961d4616ed9a02726bc55ff5613",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4204973"
+  },
+  {
+    "id": "imagined-congress",
+    "ssrnId": "6611178",
+    "title": "The Imagined Congress: What Generative AI Models Think U.S. Politicians Look Like",
+    "downloadedFile": "<downloads>/ssrn-6611178.pdf",
+    "pages": 100,
+    "bytes": 77849706,
+    "sha256": "1f2d5bd8e59fc470e237e8a2d46a10f9b7a96a467d551d2a6a99a76a98dbaf76",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6611178"
+  },
+  {
+    "id": "political-symbols-amenities",
+    "ssrnId": "6727981",
+    "title": "Political Symbols and Urban Amenities: The Spatial Logic of Flag Placement in Istanbul",
+    "downloadedFile": "<downloads>/ssrn-6727981 (1).pdf",
+    "pages": 57,
+    "bytes": 1789657,
+    "sha256": "35d4f7ae40f1183ecc8cbb298bec3b6367fdae7bea0a6f0a6158d89a449f3ebe",
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6727981"
+  }
+]

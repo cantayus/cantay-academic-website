@@ -1,0 +1,29 @@
+{
+  "catalogEntries": 49,
+  "ssrnPapers": 22,
+  "fullTextsReviewed": 28,
+  "allSsrnPapersReviewed": true,
+  "figures": 47,
+  "stories": 19,
+  "ownerConfirmedAliases": {
+    "political-bias-ai-images": "imagined-congress",
+    "flag-placement-optimization": "political-symbols-amenities"
+  },
+  "oversizedOriginalsUseOfficialSsrn": {
+    "/papers/lumos.pdf": "https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=6296858&mirid=1&type=2",
+    "/papers/victim-assistance.pdf": "https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=5415614&mirid=1&type=2"
+  },
+  "verifiedAt": "2026-11-23",
+  "ssrnDownloadsVerified": 22,
+  "ssrnWorksWithSourceFigures": 22,
+  "inaccessibleBookChapters": 3,
+  "workInProgressRecordsWithoutReviewedFullText": 18,
+  "countsBasis": "Canonical content/research.json and content/figures.json; stories embedded in research records. Each of the22 downloaded SSRN files was checked for a PDF signature and readable page tree. Counts refer to unique catalog works, not manuscript versions.",
+  "ownerConfirmedAuthorNames": {
+    "halalllm-kosherllm": "Ciarrah Wang"
+  },
+  "excludedWebsiteSections": [
+    "grants",
+    "academic service"
+  ]
+}

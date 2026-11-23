@@ -1,0 +1,50 @@
+[
+  {
+    "id": "congress-full-information-benchmark",
+    "paperId": "imagined-congress",
+    "title": "Leaving out a detail is only part of the problem",
+    "summary": "The full-information portraits provide a crucial benchmark: some distortions appear before any attribute is removed.",
+    "paragraphs": [
+      "The researchers build prompts from legislators’ public characteristics and then leave out one attribute at a time. The comparison gallery shows the resulting synthetic research images beside a real reference photograph. The generated outputs are test material, not authentic portraits of the person named in the figure.",
+      "The study separates two questions: how generated images differ from verified characteristics, and what changes when a detail is removed from the same person’s prompt. The age distributions illustrate why both comparisons matter. Generated faces are estimated as substantially younger even when all the specified information is supplied.",
+      "Masking also affects groups differently. The women-only analysis shows additional shifts toward man-coded outputs, while the comparable men-only shifts are smaller. The cross-platform plot makes another point: a platform’s curation label is not a reliable shortcut for how faithfully this particular task represents people."
+    ],
+    "limitations": [
+      "Age, gender and race outputs come from a facial-analysis model; they are measurements of image appearance with their own possible errors, not verified personal identities.",
+      "Binary gender and White/non-White coding simplify multidimensional characteristics.",
+      "The platforms differ in training data, architecture, policies and generation settings, so their differences do not isolate a causal effect of safety curation.",
+      "The study does not test whether synthetic images change voter judgments or election outcomes."
+    ],
+    "figureIds": [
+      "congress-research-stimuli",
+      "congress-attribute-distributions",
+      "congress-platform-gender-comparison"
+    ],
+    "sourcePages": [
+      7,
+      8,
+      9,
+      10,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      22,
+      23,
+      24,
+      25,
+      26,
+      44,
+      46,
+      47,
+      69,
+      86,
+      87,
+      88,
+      99
+    ],
+    "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6611178"
+  }
+]

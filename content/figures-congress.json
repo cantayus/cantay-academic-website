@@ -1,0 +1,53 @@
+[
+  {
+    "id": "congress-research-stimuli",
+    "paperId": "imagined-congress",
+    "sourceFile": "ssrn-6611178.pdf",
+    "page": 10,
+    "figure": "Figure 1",
+    "title": "Research material: reference photo and AI-generated outputs",
+    "caption": "Source Figure 1 uses prompts based on Kristi Noem’s characteristics. The left column repeats a real reference photograph. All fifteen images to its right are AI-generated research stimuli, arranged by generator and the attribute omitted from the prompt. They are not authentic portraits of Noem. Names were excluded from the generation prompts; the gallery is an example, not an estimate of an average effect.",
+    "alt": "Source-paper comparison with a real reference photograph on the left and clearly identified AI-generated research outputs across three models and five masking conditions.",
+    "kind": "image",
+    "credit": "Caliskan et al., The Imagined Congress, public SSRN manuscript, Figure 1.",
+    "src": "/research/congress-research-stimuli.jpg",
+    "width": 1500,
+    "height": 830,
+    "paperUrl": "https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=6611178&mirid=1#page=10",
+    "captionIsVerbatim": false
+  },
+  {
+    "id": "congress-attribute-distributions",
+    "paperId": "imagined-congress",
+    "sourceFile": "ssrn-6611178.pdf",
+    "page": 18,
+    "figure": "Figure 8",
+    "title": "Full information does not ensure a faithful distribution",
+    "caption": "Source Figure 8 compares verified sample characteristics with the facial-analysis pipeline’s estimates for full-information (“Benchmark”) and masked-prompt (“Treatment”) portraits. The age distributions show a large youth shift even in the benchmark. Gender and race panels use the paper’s simplified binary categories; they summarize model classifications rather than identities.",
+    "alt": "Original three-panel comparison of generated and verified age distributions, gender-category shares and race-category shares.",
+    "kind": "image",
+    "credit": "Caliskan et al., The Imagined Congress, public SSRN manuscript, Figure 8.",
+    "src": "/research/congress-attribute-distributions.png",
+    "width": 1579,
+    "height": 1507,
+    "paperUrl": "https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=6611178&mirid=1#page=18",
+    "captionIsVerbatim": false
+  },
+  {
+    "id": "congress-platform-gender-comparison",
+    "paperId": "imagined-congress",
+    "sourceFile": "ssrn-6611178.pdf",
+    "page": 24,
+    "figure": "Figure 13",
+    "title": "Masking effects vary by platform and condition",
+    "caption": "Source Figure 13 analyzes legislators recorded as women. The bottom panel compares masked prompts with the same politicians’ full-information prompts; negative treatment coefficients mean fewer woman-coded outputs. The Stable Diffusion differential is a comparison with the other platforms, not its complete effect. Its direction varies by condition, so the plot does not establish a universal benefit or harm from curation.",
+    "alt": "Three coefficient panels with 95 percent confidence intervals for gender-classification changes among women legislators under different masking conditions and platform comparisons.",
+    "kind": "image",
+    "credit": "Caliskan et al., The Imagined Congress, public SSRN manuscript, Figure 13.",
+    "src": "/research/congress-platform-gender-comparison.png",
+    "width": 1563,
+    "height": 1255,
+    "paperUrl": "https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=6611178&mirid=1#page=24",
+    "captionIsVerbatim": false
+  }
+]

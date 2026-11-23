@@ -1,0 +1,149 @@
+[
+  {
+    "name": "FlagSense",
+    "oldURL": "https://github.com/tiloftus/flagsense",
+    "newURL": "https://github.com/tiloftus/flagsense",
+    "status": "verified",
+    "evidence": "GitHub repository API returned HTTP 200; repository is public and not archived. Canonical html_url matches the existing URL.",
+    "checkedAt": "2026-11-23",
+    "evidenceURLs": [
+      "https://api.github.com/repos/tiloftus/flagsense"
+    ]
+  },
+  {
+    "name": "LUMOS",
+    "oldURL": "https://github.com/NNyarlathotep/Lumos-Salience",
+    "newURL": "https://github.com/NNyarlathotep/Lumos-Salience",
+    "status": "verified",
+    "evidence": "GitHub repository API returned HTTP 200; repository is public and not archived. Canonical html_url matches the existing URL.",
+    "checkedAt": "2026-11-23",
+    "evidenceURLs": [
+      "https://api.github.com/repos/NNyarlathotep/Lumos-Salience"
+    ]
+  },
+  {
+    "name": "DEVISE",
+    "oldURL": "https://github.com/NNyarlathotep/DEVISE",
+    "newURL": "https://github.com/NNyarlathotep/DEVISE",
+    "status": "verified",
+    "evidence": "GitHub repository API returned HTTP 200; repository is public and not archived. Canonical html_url matches the existing URL.",
+    "checkedAt": "2026-11-23",
+    "evidenceURLs": [
+      "https://api.github.com/repos/NNyarlathotep/DEVISE"
+    ]
+  },
+  {
+    "name": "WhoSpoke",
+    "oldURL": "https://github.com/cantayus/WhoSpoke",
+    "newURL": "https://github.com/cantayus/WhoSpoke",
+    "status": "verified",
+    "evidence": "GitHub repository API returned HTTP 200; repository is public and not archived. Canonical html_url matches the existing URL.",
+    "checkedAt": "2026-11-23",
+    "evidenceURLs": [
+      "https://api.github.com/repos/cantayus/WhoSpoke"
+    ]
+  },
+  {
+    "name": "Legopolitics",
+    "oldURL": "https://github.com/cantayus/legopolitics",
+    "newURL": "https://github.com/cantayus/legopolitics",
+    "status": "verified",
+    "evidence": "GitHub repository API returned HTTP 200; repository is public and not archived. Canonical html_url matches the existing URL.",
+    "checkedAt": "2026-11-23",
+    "evidenceURLs": [
+      "https://api.github.com/repos/cantayus/legopolitics"
+    ]
+  },
+  {
+    "name": "SimCityNet",
+    "oldURL": "https://github.com/X0X0X00/SimCity-Net/tree/feature/simcitynet-package-finalize/simcitynet",
+    "newURL": null,
+    "status": "broken_original_candidate_requires_canonical_confirmation",
+    "evidence": "Both the original deep URL and the original repository API return HTTP 404. GitHub public repository search finds hpa-code/simcitynet, which returns 200 and explicitly cites the exact Caliskan/Iskakov/Li/McCollum/Ren paper DOI 10.2139/ssrn.5369073. Its pyproject lists these five authors. Its owner profile is Hari Prasad Acharya, University of Rochester, and it was created 18 November 2026. No redirect, transfer, or first-party statement establishes it as the replacement for X0X0X00/SimCity-Net; do not automatically assert a rename. Its linked documentation returns 404 and PyPI simcitynet returns 404. A verified matching implementation candidate is available, but the canonical author-maintained repository remains unconfirmed.",
+    "checkedAt": "2026-11-23",
+    "candidateURL": "https://github.com/hpa-code/simcitynet",
+    "safeFallbackURL": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5369073",
+    "evidenceURLs": [
+      "https://api.github.com/repos/X0X0X00/SimCity-Net",
+      "https://api.github.com/repos/hpa-code/simcitynet",
+      "https://raw.githubusercontent.com/hpa-code/simcitynet/main/pyproject.toml",
+      "https://api.github.com/users/hpa-code",
+      "https://hpa-code.github.io/simcitynet/",
+      "https://pypi.org/pypi/simcitynet/json"
+    ]
+  },
+  {
+    "name": "WebVest",
+    "oldURL": "https://pypi.org/project/web-vest/",
+    "newURL": "https://pypi.org/project/web-vest/",
+    "status": "verified",
+    "evidence": "PyPI project page and JSON API both return HTTP 200. Package web-vest version 0.3.0 describes a Visual Element-based Saliency Toolkit and names wherearethepizzas/vest as repository; that GitHub repository also returns 200.",
+    "checkedAt": "2026-11-23",
+    "evidenceURLs": [
+      "https://pypi.org/pypi/web-vest/json",
+      "https://api.github.com/repos/wherearethepizzas/vest"
+    ]
+  },
+  {
+    "name": "Playable Past",
+    "oldURL": "https://playablepast.com/",
+    "newURL": "https://playablepast.com/",
+    "status": "verified_redirect",
+    "evidence": "Existing domain redirects to https://cantayus.github.io/video-game-digital-heritage/ and returns HTTP 200. The resulting page is titled Digital Heritage in Video Games, credits Cantay Caliskan and Mija Aleksandraviciute, University of Rochester, and its app.js returns HTTP 200.",
+    "checkedAt": "2026-11-23",
+    "resolvedURL": "https://cantayus.github.io/video-game-digital-heritage/",
+    "evidenceURLs": [
+      "https://playablepast.com/",
+      "https://cantayus.github.io/video-game-digital-heritage/assets/app.js"
+    ]
+  },
+  {
+    "name": "The Society Atlas",
+    "oldURL": "https://thesocietyatlas.net/",
+    "newURL": "https://thesocietyatlas.net/",
+    "status": "verified_framed_domain",
+    "evidence": "Custom domain returns HTTP 200 and contains a full-window frame targeting https://cantayus.github.io/society-atlas/. The target also returns HTTP 200 with the correct title and research-adventure description. The current custom-domain link is functional; this HTTP audit does not by itself establish every in-game action works.",
+    "checkedAt": "2026-11-23",
+    "resolvedURL": "https://cantayus.github.io/society-atlas/",
+    "evidenceURLs": [
+      "https://thesocietyatlas.net/",
+      "https://cantayus.github.io/society-atlas/"
+    ]
+  },
+  {
+    "name": "The Missing Variable",
+    "oldURL": "https://cantayus.github.io/the-missing-variable/",
+    "newURL": "https://cantayus.github.io/the-missing-variable/",
+    "status": "verified",
+    "evidence": "Existing GitHub Pages URL returns HTTP 200, correct title, and the expected game description. Main JavaScript entrypoint js/main.js also returns HTTP 200. Keep this working URL; this HTTP audit does not replace interactive game testing.",
+    "checkedAt": "2026-11-23",
+    "evidenceURLs": [
+      "https://cantayus.github.io/the-missing-variable/",
+      "https://cantayus.github.io/the-missing-variable/js/main.js"
+    ]
+  },
+  {
+    "name": "The Missing Variable planned domain",
+    "oldURL": "https://themissingvariable.net/",
+    "newURL": "https://cantayus.github.io/the-missing-variable/",
+    "status": "unavailable_planned_domain",
+    "evidence": "themissingvariable.net fails DNS resolution (curl exit 6, HTTP 000). It is already stored only as futureUrl and should remain excluded from live navigation until configured.",
+    "checkedAt": "2026-11-23",
+    "evidenceURLs": [
+      "https://themissingvariable.net/",
+      "https://cantayus.github.io/the-missing-variable/"
+    ]
+  },
+  {
+    "name": "SICSS 2026 Rochester",
+    "oldURL": "https://sicss.io/2026/rochester/",
+    "newURL": "https://sicss.io/2026/rochester/",
+    "status": "verified",
+    "evidence": "HTTP 200. Official SICSS page identifies SICSS-Rochester, May 11–24, 2026, University of Rochester. Its People page returns 200 and lists Cantay Caliskan as faculty with the matching academic biography.",
+    "checkedAt": "2026-11-23",
+    "evidenceURLs": [
+      "https://sicss.io/2026/rochester/",
+      "https://sicss.io/2026/rochester/people"
+    ]
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "fear-around-partisan-mentions",
+    "paperId": "fight-flight-fox",
+    "title": "Fear, rather than anger, is the most consistent signal",
+    "summary": "The study tests several estimated expressions around political mentions. Fear is the expression that most consistently separates opposing-party from other mentions.",
+    "paragraphs": [
+      "A television discussion communicates through the people who are listening as well as the person speaking. This study extracts non-speaking faces, aligns them with timestamped mentions of political actors, and compares the estimated expressions across cable networks.",
+      "The clearest pattern is not increased anger or disgust. Fear is the dominant estimated expression about 7–10 percentage points more often around opposing-party mentions in the main specifications. The paper reports some evidence that the pattern is stronger on Fox News; MSNBC’s separate estimates are smaller and less precise.",
+      "The authors also ask human annotators to compare pairs of faces. Their rankings provide a check on the model’s relative fear scores, while leaving substantial limits on what a facial-expression measure can mean."
+    ],
+    "limitations": [
+      "These are model estimates of displayed facial expressions, not direct readings of a person’s private feelings.",
+      "The videos are clips uploaded by networks to YouTube, and the channels’ collection windows differ.",
+      "The main regressions are observational and do not establish that a mention causes an expression or changes a viewer’s opinion.",
+      "Human validation uses a deliberately selected contrast between high- and low-classifier fear images; the principal plot restricts the sample to 668 pairs where two annotators agree."
+    ],
+    "figureIds": [
+      "fight-fear-validation-pairs",
+      "fight-emotion-coefficients"
+    ],
+    "sourcePages": [
+      4,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "sourceUrl": "/papers/fight-flight-fox.pdf"
+  },
+  {
+    "id": "public-talk-private-coalitions",
+    "paperId": "coalition-talk-europe",
+    "title": "Governing together does not mean talking alike",
+    "summary": "Cabinet ministers can sustain coalitions while keeping their public messages in separate ideological lanes. The paper finds that the political center rarely brings both sides together in this visible communication channel.",
+    "paragraphs": [
+      "The study connects ministers when their hashtag use overlaps more than the country-year average, then models how those ties persist and change across ideological blocs. This makes the unit of analysis a recurring pattern of public attention rather than a direct conversation between two ministers.",
+      "Ireland provides an instructive mismatch: the clearest modeled cross-bloc coalescence is left–center, rather than the center–right pairing associated with its governing practice. Denmark’s center is internally coalescent without showing the same movement toward either flank.",
+      "Sweden is the clearest case in which the communication dynamics line up with a polarized bloc structure. Across the other cases, public talk is a limited guide to the private coordination that can make governing agreements possible."
+    ],
+    "limitations": [
+      "Hashtag overlap is a measure of shared public topics; it does not necessarily mean agreement, friendship, hostility or direct interaction.",
+      "Only publicly available accounts and timelines can be observed; ministers without accounts and unavailable posts are missing.",
+      "Annual networks and long-window parameters emphasize durable patterns and can miss short-lived changes.",
+      "The paper does not observe private bargaining or establish causal effects of communication on coalition formation."
+    ],
+    "figureIds": [
+      "coalition-discourse-covariates",
+      "coalition-attraction-repulsion"
+    ],
+    "sourcePages": [
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "sourceUrl": "/papers/coalition-talk-europe.pdf"
+  },
+  {
+    "id": "street-scenes-relative-distance",
+    "paperId": "kippas-keffiyehs",
+    "title": "From a street scene to a relative distance",
+    "summary": "The method combines detected people, visible identity labels, and estimated depth. Its comparison is about relative spacing within a frame, which is a more limited claim than measuring people’s beliefs or intentions.",
+    "paragraphs": [
+      "A street image is two-dimensional, so people who appear close in the picture may be at different depths. The study combines pedestrian detections with a monocular depth model, then normalizes pairwise distances within each frame so that comparisons use a unitless scale.",
+      "The central comparisons show closer estimated spacing for several same-group pairs relative to a cross-group reference. The source figure summarizes one of the gender-merged specifications: the red point is the reference intercept, while the other points are contrasts against it.",
+      "The classification task becomes harder as the labels become more detailed. Aggregating classes improves detection performance, illustrating a trade-off between identifying fine distinctions and measuring them reliably. Visible clothing and estimated spacing remain proxies, and they do not establish an individual’s private identity, political views or intent."
+    ],
+    "limitations": [
+      "Monocular depth and within-frame normalization do not provide calibrated interpersonal distances in meters.",
+      "Visible religious or ethnonational categories are model/coder interpretations, rather than verified personal identities.",
+      "Fine-grained detection performance is substantially weaker than performance with aggregated categories; rare classes are especially difficult.",
+      "YouTube street-video coverage and a training sample centered on four cities constrain representativeness; the study is observational."
+    ],
+    "figureIds": [
+      "kippas-streets-and-depth",
+      "kippas-distance-contrasts"
+    ],
+    "sourcePages": [
+      7,
+      16,
+      17,
+      18,
+      19,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "sourceUrl": "/papers/kippas-keffiyehs.pdf"
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "paperId": "lumos",
+    "title": "Asking for a box changes the result",
+    "text": "A bird in flight is an easy image for a person to recognize. Asking a multimodal model to mark its important region is a more demanding task: the answer must also take a usable spatial form. LUMOS compares those answers directly. In the prompt-format test, requesting boxes rather than a long list of polygon vertices raises mean overlap from 31.1% to 56.6%. A segmentation model can then recover a much better outline when the box is useful. The original figure makes the failure modes visible: different models can describe the same image yet point to different regions. Failed-to-parse answers are excluded from the reported scores, so reliability includes more than the overlap statistic alone.",
+    "sourcePages": [
+      4,
+      5,
+      6,
+      7,
+      11
+    ],
+    "sourceBasis": "Full downloaded LUMOS manuscript: prompt comparison, parsing rules, Tables 3–4, and Figure 3.",
+    "figureIds": [
+      "methods-lumos-bird",
+      "methods-lumos-lamp"
+    ]
+  },
+  {
+    "paperId": "across",
+    "title": "A flagged country can be the next case study",
+    "text": "An unusual observation can challenge a theory or reveal a case worth studying. ACROSS starts with country-level exceptions already discussed in political-science research, then compares how well different algorithms find them. Its five-part ensemble recovers about 54% of the known outlier observations, compared with about 15% for Cook’s distance. It also flags cases outside the original labels, including Haiti’s unusually low military spending and sharp economic changes in post-conflict countries. Those flags are invitations to investigate. The labels do not enumerate every true outlier, and being flagged does not by itself justify deleting an observation or explain why it is unusual.",
+    "sourcePages": [
+      8,
+      9,
+      14,
+      15,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "sourceBasis": "Full downloaded ACROSS manuscript, especially incomplete-label caveat p15, additional cases pp18–20, and ensemble comparison pp21–22.",
+    "figureIds": [
+      "methods-across-candidate-outliers",
+      "methods-across-recall"
+    ]
+  },
+  {
+    "paperId": "devise",
+    "title": "Measuring the greenery beside a pedestrian",
+    "text": "A row of distant trees and a single tree over the sidewalk can occupy a similar number of green pixels while creating different street-level experiences. DEVISE combines segmentation, color checks, and depth estimates to give nearby vegetation more weight. The panorama pairs show which parts of a street survive those filters; the county maps show how the resulting measure differs from a plain pixel count. The large image archive supports an electoral application, but the final social-control models contain 62 county–date observations. Their associations with vote share are useful for generating questions about local environments, rather than proof that election results caused greener streets.",
+    "sourcePages": [
+      6,
+      8,
+      9,
+      10,
+      17,
+      20,
+      21,
+      22,
+      23
+    ],
+    "sourceBasis": "Full downloaded DEVISE manuscript: pipeline, Figures 4 and 8, and model sample sizes/results in Tables 2–4.",
+    "figureIds": [
+      "methods-devise-panoramas",
+      "methods-devise-county-maps"
+    ]
+  },
+  {
+    "paperId": "halalllm-kosherllm",
+    "title": "A historical thinker through three model voices",
+    "text": "The same scholar and the same question can still lead to different generated answers. This study asks three language models to answer modern survey questions as twelve historical thinkers. Overall mean comparisons conceal differences that appear in median and modal responses. The maps and heatmaps help inspect that variation, while also showing why a convincing persona needs careful interpretation. The answers depend on model behavior, prompt design, retrieved material, and how missing or non-numeric replies are handled. They let researchers study representations of intellectual traditions; they do not establish what a historical person would actually have said.",
+    "sourcePages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      29,
+      30,
+      31
+    ],
+    "sourceBasis": "Full downloaded HalalLLM vs. KosherLLM manuscript: RAG/cleaning protocol, statistical results, discussion, and original response visualizations.",
+    "figureIds": [
+      "methods-halal-values-map",
+      "methods-halal-median-responses"
+    ]
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "paperId": "legopolitics",
+    "title": "Who gets to suffer in a toy war?",
+    "text": "The playful surface does political work. Across 363 LEGO-style wartime videos, violence attributed to Iran is shown with substantially less victim suffering than adversary violence, even within the same video and comparable target types. Yet the story is not simply that jokes travel farther: once we compare posts from the same channel, humor has no reliable relationship with views. These are patterns in the representation and circulation of propaganda, not evidence of its effects on viewers.",
+    "figureIds": [
+      "legopolitics-selective-suffering",
+      "legopolitics-corpus-stills"
+    ],
+    "sourcePages": [
+      10,
+      11,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "sourceBasis": "Public SSRN 7667619 full text; H2a/H2c main and robustness results. The stills are explicitly AI-generated LEGO-style propaganda analyzed as study material."
+  },
+  {
+    "paperId": "legopolitics",
+    "title": "Blaming a president, addressing a public",
+    "text": "In the videos’ direct leader-versus-public blame attributions, 93.1% name a U.S. leader. Almost all of that personalization concerns Trump; remove him and the remaining leaders receive about as much blame as the American public. The videos also draw on U.S. taxes, prices, political scandals, and popular culture more than the state-media comparison does. The combination illustrates how hostile messaging can borrow the language of the audience it hopes to address.",
+    "figureIds": [
+      "legopolitics-corpus-stills"
+    ],
+    "sourcePages": [
+      28,
+      29,
+      30,
+      38,
+      39,
+      40
+    ],
+    "sourceBasis": "Public SSRN 7667619 full text, H1b and H3b. Comparison media are temporally unmatched and cannot establish producer strategy or audience effects."
+  },
+  {
+    "paperId": "playable-past",
+    "title": "Recognizable is not the same as geometrically faithful",
+    "text": "Which game franchise gets architecture right? The answer changes with the measuring instrument. In the main object-level comparisons, DINOv2’s broad visual resemblance places Age of Empires above Assassin’s Creed, while LightGlue’s local feature matching reverses that order. A recognizable silhouette can survive changes to proportions, materials, and details. We use that disagreement to make the meaning of an “accuracy” score visible.",
+    "figureIds": [
+      "playable-past-architecture-comparisons",
+      "playable-past-lightglue-architecture"
+    ],
+    "sourcePages": [
+      14,
+      15,
+      16,
+      17,
+      24,
+      25,
+      26,
+      27
+    ],
+    "sourceBasis": "Public SSRN 6855021 full text dated 31 May 2026; model-specific object-level regressions and visual-method definitions. These rankings concern the sampled architectural depictions, not the historical quality of entire franchises."
+  },
+  {
+    "paperId": "playable-past",
+    "title": "An AI score still needs a human question",
+    "text": "A vision-language model agrees more closely with our four raters’ overall impressions than the two image-matching methods do: Gemma’s correlation is 0.659 across 100 comparisons. That is useful evidence about perceived visual fidelity, but it does not make the model an architectural historian. A photograph of a building today, a player’s sense of plausibility, and evidence about its historical form answer related but different questions.",
+    "figureIds": [
+      "playable-past-lightglue-architecture"
+    ],
+    "sourcePages": [
+      18,
+      19,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "sourceBasis": "Public SSRN 6855021 full text; four-rater validation, correlations and limitations. Gemma uses object-level multi-reference evaluation; image-matching comparisons use pairs."
+  },
+  {
+    "paperId": "judges-emotions",
+    "title": "When a camera angle looks like an emotion",
+    "text": "The first result looked unusually solid: the model read more negativity from judges while governments spoke, and the difference survived 13 specifications. Then we checked where the judges were looking. Applicants and governments sit in different directions, and the classifier tends to call a turned face more neutral. Controlling for head orientation removes most of the apparent party difference. Repeating an analysis many ways cannot repair a measurement flaw shared by all of them.",
+    "figureIds": [
+      "judges-emotions-camera-angle"
+    ],
+    "sourcePages": [
+      31,
+      32,
+      33,
+      37,
+      38,
+      42,
+      43
+    ],
+    "sourceBasis": "Public SSRN 7712078 full text, primary party comparison and exploratory head-orientation analyses. The raw negative-display gap is 3.5 percentage points; full-landmark adjustments leave 0.5–0.9 points with intervals including zero."
+  },
+  {
+    "paperId": "judges-emotions",
+    "title": "The courtroom the camera lets us see",
+    "text": "Hundreds of hours of public hearings yield surprisingly little footage of judges listening. A verified judge is visible during only 1.4% of party-speaking seconds, and three prominently seated judges account for 89% of the listening observations. That uneven view is part of the evidence, not just a technical inconvenience: it limits what we can infer about national favoritism or the behavior of the full bench.",
+    "figureIds": [
+      "judges-emotions-pipeline"
+    ],
+    "sourcePages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      42
+    ],
+    "sourceBasis": "Public SSRN 7712078 full text; verified listening-sample coverage, role concentration and power discussion. Expression probabilities are model outputs rather than direct measures of emotion."
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "fight-flight-fox",
+    "summary": "Facial-expression estimates are linked to mentions of political actors in 1,750 cable-news videos. Mentions of the opposing party are associated with fear being the dominant estimated expression more often, with stronger and more precisely estimated patterns on Fox News than on MSNBC.",
+    "question": "What changes in a listener’s expression when a political opponent is mentioned?",
+    "findings": [
+      "The corpus contains 191 hours of video from CNN, MSNBC, and Fox News; the analysis focuses on non-speaking faces around timestamped political mentions.",
+      "Across the main specifications, fear is the top estimated expression about 7–10 percentage points more often around opposing-party mentions, against a 23.3% comparison mean.",
+      "Other emotion categories do not show the same consistent relationship; Fox News estimates are larger and more precise than MSNBC estimates.",
+      "The classifier achieved 66.37% accuracy on held-out FER2013 images. Human comparison rankings support its fear scores on a selected set of cable-news image pairs."
+    ],
+    "fullTextReviewed": true,
+    "sourceBasis": "Complete 38-page SSRN manuscript, dated 30 August 2022, downloaded through the normal SSRN browser flow on 23 November 2026 and reviewed, including methods, human validation, main tables and robustness appendices. This is observational evidence about estimated displayed expressions; it does not establish internal emotional states, causal reactions, or audience effects.",
+    "links": [
+      {
+        "label": "Full paper",
+        "url": "/papers/fight-flight-fox.pdf"
+      },
+      {
+        "label": "SSRN",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4204973"
+      }
+    ],
+    "sourceUrls": [
+      "/papers/fight-flight-fox.pdf",
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4204973"
+    ]
+  },
+  {
+    "id": "coalition-talk-europe",
+    "summary": "Shared hashtags in 1,848,735 tweets are used to trace public communication among 518 cabinet ministers in seven Northern European democracies. Their topical ties persist over time, while the modeled dynamics of cross-bloc communication often diverge from the governing coalitions those countries sustain.",
+    "question": "Do ministers’ public communication patterns reflect the coalitions they can form?",
+    "findings": [
+      "The study follows cabinet ministers in Belgium, Denmark, Iceland, Ireland, the Netherlands, Norway and Sweden from 2008 to 2024.",
+      "Year-to-year persistence is positive across all seven countries; within-party clustering is clearest in Ireland, Belgium and the Netherlands.",
+      "The center–right attraction estimate is negative in all seven countries, and the left–right estimate is negative except in Denmark, where it is approximately zero. These are modeled dynamics of topical overlap, not direct observations of personal hostility.",
+      "Sweden most closely matches a polarized bloc structure. In other countries, public discourse does not consistently mirror actual coalition arrangements."
+    ],
+    "fullTextReviewed": true,
+    "sourceBasis": "Complete 37-page SSRN manuscript downloaded through the normal SSRN browser flow on 23 November 2026 and reviewed, including yearly network construction, model interpretation, country results, discussion and appendix. Shared hashtags measure public topical overlap; they do not observe private bargaining, private beliefs, causal influence or coalition feasibility. The source uses a Cambridge manuscript template, which is not evidence of journal publication.",
+    "links": [
+      {
+        "label": "Full paper",
+        "url": "/papers/coalition-talk-europe.pdf"
+      },
+      {
+        "label": "SSRN",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6561898"
+      }
+    ],
+    "sourceUrls": [
+      "/papers/coalition-talk-europe.pdf",
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6561898"
+    ]
+  },
+  {
+    "id": "kippas-keffiyehs",
+    "authors": [
+      "Cantay Caliskan",
+      "Yuanzhu Li",
+      "Timothy Loftus"
+    ],
+    "summary": "Street-video images are used to estimate relative pedestrian distances and examine how spacing varies with visible identity cues. Pairs classified within the same ethnoreligious groups are generally closer in the modeled comparisons, while the method’s fine-grained labels and estimated depth introduce important measurement limits.",
+    "question": "How do visible identity cues relate to interpersonal spacing in public?",
+    "findings": [
+      "The public manuscript reports 449,992 detected pedestrians and 76,604 estimated pairwise distances from its street-video corpus.",
+      "In the gender-merged specifications, pairs classified as religious Arab are about 0.22–0.32 normalized distance units closer than the cross-group reference; the corresponding religious Jewish comparison is about 0.07–0.10 units. These are unitless within-frame comparisons, not meters.",
+      "The paper reports larger spacing for several pairings involving visible religious cues and for male-only pairs.",
+      "Detection performance depends strongly on label granularity: reported fine-grained mAP50 is about 0.19–0.21, increasing to about 0.56–0.58 when categories are aggregated."
+    ],
+    "fullTextReviewed": true,
+    "sourceBasis": "Complete 45-page public SSRN manuscript downloaded through the normal SSRN browser flow on 23 November 2026 and reviewed, including detection/depth validation, normalization, regressions and discussion. Author order follows this PDF’s title page, which differs from the landing-page order. Distances and visible identity labels are estimates/proxies, not direct readings of personal beliefs, calibrated physical meters, or causal evidence of avoidance. A later blinded local draft was compared but is not hosted and its additional electoral analyses are not transferred to this version.",
+    "links": [
+      {
+        "label": "Full paper",
+        "url": "/papers/kippas-keffiyehs.pdf"
+      },
+      {
+        "label": "SSRN",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5415636"
+      }
+    ],
+    "sourceUrls": [
+      "/papers/kippas-keffiyehs.pdf",
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5415636"
+    ]
+  },
+  {
+    "id": "social-media-democracy-review",
+    "summary": "A review of the Persily and Tucker edited volume on social media and democracy. It highlights the book’s structured synthesis of research and concrete proposals for regulation, while identifying the economic effects of those proposals as a question for further work.",
+    "question": "What can research on social media contribute to democratic reform?",
+    "findings": [],
+    "fullTextReviewed": true,
+    "sourceBasis": "Complete review on pages 1029–1031 of Perspectives on Politics 19(3), published 2 September 2021, downloaded from the Cambridge publisher’s normal linked PDF on 23 November 2026 and read. This is a scholarly book review, not an original empirical study; the review praises the volume’s organization, attention to definitions, and policy proposals, and notes that their quantitative economic effects are beyond the volume’s scope. The publisher PDF also contains adjacent reviews, which are not attributed to Caliskan.",
+    "links": [
+      {
+        "label": "Full review",
+        "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AD1717774D54E5AC92B275929FBA3EBC/S1537592721001511a.pdf/social-media-and-democracy-the-state-of-the-field-prospects-for-reform-edited-by-nathaniel-persily-and-joshua-a-tucker-cambridge-cambridge-university-press-2020-364p-dollar9999-cloth-dollar2999-paper.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1017/S1537592721001511"
+      }
+    ],
+    "sourceUrls": [
+      "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AD1717774D54E5AC92B275929FBA3EBC/S1537592721001511a.pdf/social-media-and-democracy-the-state-of-the-field-prospects-for-reform-edited-by-nathaniel-persily-and-joshua-a-tucker-cambridge-cambridge-university-press-2020-364p-dollar9999-cloth-dollar2999-paper.pdf",
+      "https://doi.org/10.1017/S1537592721001511"
+    ]
+  }
+]

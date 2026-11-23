@@ -1,0 +1,69 @@
+{
+  "researchIntro": "I use artificial intelligence, machine learning and deep learning, network analysis, and natural language processing to uncover patterns in social and political data.",
+  "researchNarrative": [
+    "I am particularly interested in questions that are straightforward to pose but computationally difficult to answer. How do networks reveal political influence and polarization? What can images, video, and audio tell us about communication, social divisions, and the visibility of political power? I build original datasets and research tools to investigate these questions.",
+    "My projects connect computational methods with substantive social science questions. They examine how people stand near one another in public space, where political parties display their symbols, how judges participate in hearings, and how political actors communicate through speech and emotion. Across this work, I distinguish descriptive patterns from causal explanations and ask whether a measure captures the concept it claims to represent.",
+    "I also evaluate the systems doing the measuring. I compare computational judgments with human expertise, study biases in AI-generated representations, and develop interpretable measures and reproducible workflows. Open Python software and collaboration with student researchers are central to how I do this work."
+  ],
+  "researchThemes": [
+    {
+      "name": "Politics in public space",
+      "description": "I study social distance, visible identities, flags, party offices, and the ways political power becomes visible in everyday surroundings."
+    },
+    {
+      "name": "Networks and political influence",
+      "description": "I use network models to examine elite interactions, lobbying, information diffusion, and political polarization."
+    },
+    {
+      "name": "Communication and emotion",
+      "description": "I combine images, video, speech, and text to investigate nonverbal behavior and political communication in news, diplomacy, debates, and court hearings."
+    },
+    {
+      "name": "AI measurement and bias",
+      "description": "I test the accuracy, biases, and limitations of language and vision models, with attention to validation, interpretation, and reproducibility."
+    },
+    {
+      "name": "History and video games",
+      "description": "I ask what it means for a game to get history right, examining how games reconstruct architecture and other dimensions of the past while simplifying or inventing others."
+    },
+    {
+      "name": "Research software",
+      "description": "I develop Python tools that help researchers extract, label, and analyze social information from images, video, audio, and webpages."
+    }
+  ],
+  "teachingIntro": "I teach data science, machine learning, and computational social science, and supervise student research across these areas.",
+  "teachingNarrative": [
+    "My courses combine lectures and concept quizzes with labs, projects, and Kaggle challenges. Students work with real datasets, implement methods, evaluate models, and explain their decisions. Teaching in small liberal arts classrooms, large lectures, and mixed in-person and remote settings has also led me to use flipped modules, structured peer review, and low-stakes assessments.",
+    "I supervise student research in computational social science and AI."
+  ],
+  "teachingPrinciples": [
+    {
+      "title": "Use the method",
+      "description": "I ask students to apply methods to messy, real-world problems through labs, projects, and individual and team challenges."
+    },
+    {
+      "title": "Understand why it works",
+      "description": "Programming and AI tools support the work, while exams test the mathematical and conceptual understanding students need to judge the results."
+    },
+    {
+      "title": "Make assumptions visible",
+      "description": "Classroom exercises turn questions about bias, evaluation, and the limits of AI into things students can inspect and discuss."
+    },
+    {
+      "title": "Build relationships",
+      "description": "I meet students to discuss their goals, coursework, and next steps, and maintain contact after the semester ends."
+    },
+    {
+      "title": "Make research accessible",
+      "description": "I supervise student projects in computational social science and AI."
+    }
+  ],
+  "aboutIntro": "My work spans empirical and methodological applications in computational social science, computer vision, generative AI, natural language processing, and video games. I focus on interpretable, scalable methods for measuring behavior, narratives, and emotions across platforms. I also build open-source research tools and mentor student researchers.",
+  "sourceNotes": [
+    "Adapted from the author’s supplied 2026 research and teaching statements. The cover letter was used only to corroborate general background; it is not intended for publication.",
+    "Application targets, proposed job-specific course codes, search-committee language, and requests for employment were excluded. No source DOCX files were copied into public assets.",
+    "Publication titles and statuses should continue to come from the separately audited research catalog and newer manuscripts, rather than the statements’ older bibliographies.",
+    "The research statement describes about 15 student researchers per semester, while the résumé baseline lists 10 current researchers. These differently framed counts were left out of the prose rather than combined.",
+    "Teaching practices are described in the author’s own first-person voice. Student evaluation quotations and application-only materials were not reproduced."
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "name": "Cantay Caliskan",
+  "credentials": [
+    "PhD",
+    "MBA"
+  ],
+  "role": "Associate Professor of Instruction in Data Science and Artificial Intelligence",
+  "institution": "Goergen Institute for Data Science and AI, University of Rochester",
+  "email": "cantay.caliskan@rochester.edu",
+  "bio": "I study how people, politics, and technology shape one another. My research brings artificial intelligence, machine learning, network analysis, and natural language processing to social and political data, with an emphasis on interpretable methods for understanding behavior, narratives, and emotions. I also build research software and mentor student researchers.",
+  "researchInterests": [
+    "Computational social science",
+    "Artificial intelligence",
+    "Machine learning",
+    "Network analysis",
+    "Computer vision",
+    "Natural language processing",
+    "Political communication",
+    "Video games"
+  ],
+  "education": [
+    {
+      "degree": "PhD and MA, Political Science",
+      "field": "Political Science",
+      "institution": "Boston University",
+      "years": "2013–2018",
+      "startYear": 2013,
+      "endYear": 2018,
+      "details": "Minors in Computer Science and Statistics. Dissertation: The Flow of Interests and Money in Policymaking.",
+      "id": "education-phd-and-ma-political-science-boston-university-2013"
+    },
+    {
+      "degree": "Master of Business Administration (STEM MBA)",
+      "institution": "Simon Business School, University of Rochester",
+      "years": "2023–2025",
+      "startYear": 2023,
+      "endYear": 2025,
+      "id": "education-master-of-business-administration-stem-mba-simon-business-school-university-of-rochester-2023"
+    },
+    {
+      "degree": "MA, International Relations",
+      "institution": "Koç University",
+      "years": "2011–2013",
+      "startYear": 2011,
+      "endYear": 2013,
+      "id": "education-ma-international-relations-koc-university-2011"
+    },
+    {
+      "degree": "BA, Mathematics, Economics, and International and Global Studies",
+      "institution": "Brandeis University",
+      "years": "2006–2010",
+      "startYear": 2006,
+      "endYear": 2010,
+      "details": "Minors in Computer Science and Film and Visual Media Studies.",
+      "id": "education-ba-mathematics-economics-and-international-and-global-studies-brandeis-university-2006"
+    }
+  ],
+  "appointments": [
+    {
+      "title": "Associate Professor of Instruction in Data Science and AI",
+      "institution": "University of Rochester",
+      "years": "2024–present",
+      "startYear": 2024,
+      "endYear": null,
+      "current": true,
+      "id": "appointments-associate-professor-of-instruction-in-data-science-and-ai-university-of-rochester-2024"
+    },
+    {
+      "title": "Organizer, Summer Institute in Computational Social Science (SICSS)",
+      "institution": "University of Rochester",
+      "years": "2022–present",
+      "startYear": 2022,
+      "endYear": null,
+      "current": true,
+      "id": "appointments-organizer-summer-institute-in-computational-social-science-sicss-university-of-rochester-2022"
+    },
+    {
+      "title": "Assistant Professor of Instruction in Data Science and AI",
+      "institution": "University of Rochester",
+      "years": "2021–2024",
+      "startYear": 2021,
+      "endYear": 2024,
+      "current": false,
+      "id": "appointments-assistant-professor-of-instruction-in-data-science-and-ai-university-of-rochester-2021"
+    },
+    {
+      "title": "Visiting Assistant Professor of Data Analytics",
+      "institution": "Denison University",
+      "years": "2019–2021",
+      "startYear": 2019,
+      "endYear": 2021,
+      "current": false,
+      "id": "appointments-visiting-assistant-professor-of-data-analytics-denison-university-2019"
+    },
+    {
+      "title": "Visiting Assistant Professor of Mathematics and Computer Science",
+      "institution": "Ohio Wesleyan University",
+      "years": "2018–2019",
+      "startYear": 2018,
+      "endYear": 2019,
+      "current": false,
+      "id": "appointments-visiting-assistant-professor-of-mathematics-and-computer-science-ohio-wesleyan-university-2018"
+    },
+    {
+      "title": "Visiting Research Fellow",
+      "institution": "University of Vienna",
+      "years": "Summer 2019",
+      "startYear": 2019,
+      "endYear": 2019,
+      "current": false,
+      "id": "appointments-visiting-research-fellow-university-of-vienna-2019"
+    }
+  ],
+  "books": [
+    {
+      "title": "Algorithmic Understanding of Emotions: Social Theories and Computational Applications",
+      "status": "Book project",
+      "description": "A bridge between politics, psychology, statistics, and computer science: theories of emotion, computational measurement, and empirical applications in political life.",
+      "id": "books-algorithmic-understanding-of-emotions-social-theories-and-computational-applications"
+    },
+    {
+      "title": "The Playable Past: Fidelity, History, and Video Games",
+      "status": "Book project",
+      "description": "A book project on fidelity, history, and video games.",
+      "id": "books-the-playable-past-fidelity-history-and-video-games"
+    }
+  ],
+  "software": [
+    {
+      "name": "FlagSense",
+      "description": "A Python library for analyzing Google Street View images to classify and measure national and state flags using deep learning.",
+      "url": "https://github.com/tiloftus/flagsense",
+      "id": "software-flagsense"
+    },
+    {
+      "name": "LUMOS",
+      "description": "A Python package for testing how large language models capture image salience using bounding boxes and segmentation masks.",
+      "url": "https://github.com/NNyarlathotep/Lumos-Salience",
+      "id": "software-lumos"
+    },
+    {
+      "name": "DEVISE",
+      "description": "A depth-aware Python package that quantifies grass, plant, and tree coverage in panoramic urban images.",
+      "url": "https://github.com/NNyarlathotep/DEVISE",
+      "id": "software-devise"
+    },
+    {
+      "name": "SimCityNet",
+      "description": "A Python library for labeling urban features, including vegetation, vehicles, pedestrians, structural features, and color distribution.",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5369073",
+      "id": "software-simcitynet",
+      "linkLabel": "Research paper"
+    },
+    {
+      "name": "WebVest",
+      "description": "A Python library for measuring webpage element salience through layout, OCR, translation, image analysis, and visual saliency detection.",
+      "url": "https://pypi.org/project/web-vest/",
+      "id": "software-webvest"
+    },
+    {
+      "name": "WhoSpoke",
+      "description": "Multimodal speaker identification integrating diarization, multilingual speech recognition, voice matching, face recognition, and timestamped transcripts.",
+      "url": "https://github.com/cantayus/WhoSpoke",
+      "id": "software-whospoke"
+    },
+    {
+      "name": "Legopolitics",
+      "description": "A multimodal Python package for studying political narratives in brick-built videos with computer vision, audio analysis, and LLM-based coding.",
+      "url": "https://github.com/cantayus/legopolitics",
+      "id": "software-legopolitics"
+    },
+    {
+      "name": "Playable Past",
+      "description": "A digital heritage dataset and research website exploring how video games reconstruct historical architecture and cultural heritage.",
+      "url": "https://playablepast.com/",
+      "id": "software-playable-past"
+    }
+  ],
+  "games": [
+    {
+      "name": "The Society Atlas",
+      "url": "https://thesocietyatlas.net/",
+      "description": "A computational social science browser game: explore university campuses, meet researchers, and solve puzzles about data, networks, and human behavior.",
+      "image": "/games/society-atlas.jpg",
+      "imageAlt": "The Society Atlas title screen, showing its campus and research adventure menu",
+      "id": "games-the-society-atlas"
+    },
+    {
+      "name": "The Missing Variable",
+      "url": "https://themissingvariable.net/",
+      "description": "A quiet exploration game about data, learning machines, and a library’s missing column. Travel between places, gather evidence, and learn one new idea at each stop.",
+      "id": "games-the-missing-variable",
+      "image": "/games/missing-variable.jpg",
+      "imageAlt": "The Missing Variable title screen, showing the game’s riverside town",
+      "sourceUrl": "https://cantayus.github.io/the-missing-variable/"
+    }
+  ],
+  "teaching": {
+    "courses": [
+      "Introduction to Statistical Machine Learning",
+      "Data Mining",
+      "Data Science Practicum",
+      "Introduction to Data Analytics",
+      "Advanced Methods for Data Analytics",
+      "Data Visualization",
+      "Social, Ethical, and Cultural Impacts of Big Data",
+      "Basic Probability and Statistics"
+    ],
+    "institutions": [
+      "University of Rochester",
+      "Denison University",
+      "Ohio Wesleyan University"
+    ],
+    "sicssUrl": "https://sicss.io/2026/rochester/"
+  },
+  "languages": [
+    {
+      "name": "Turkish",
+      "proficiency": "Native",
+      "id": "languages-turkish"
+    },
+    {
+      "name": "English",
+      "proficiency": "Fluent",
+      "id": "languages-english"
+    },
+    {
+      "name": "German",
+      "proficiency": "Fluent",
+      "id": "languages-german"
+    },
+    {
+      "name": "French",
+      "proficiency": "Intermediate",
+      "id": "languages-french"
+    },
+    {
+      "name": "Swedish",
+      "proficiency": "Intermediate",
+      "id": "languages-swedish"
+    },
+    {
+      "name": "Latin",
+      "proficiency": "Intermediate",
+      "id": "languages-latin"
+    },
+    {
+      "name": "Arabic",
+      "proficiency": "Beginner",
+      "id": "languages-arabic"
+    }
+  ],
+  "metrics": {
+    "asOf": "Fall 2026",
+    "studentsTaught": 1760,
+    "studentsTaughtLabel": "~1,760",
+    "currentResearchers": 10,
+    "teachingSections": 41,
+    "researchStudents": 75,
+    "researchStudentsLabel": "75+"
+  },
+  "researchForm": {
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSfa1hPCgPNZVEkTEK1ZenvCadhhmvpf2r6vVJ2dKpmpkTDRGw/viewform",
+    "embedUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfa1hPCgPNZVEkTEK1ZenvCadhhmvpf2r6vVJ2dKpmpkTDRGw/viewform?embedded=true"
+  },
+  "resume": {
+    "driveFileId": "1BrqPNXyQPgYKTzKbj5nD-EmhQlvbMIeq",
+    "viewUrl": "https://drive.google.com/file/d/1BrqPNXyQPgYKTzKbj5nD-EmhQlvbMIeq/view",
+    "previewUrl": "https://drive.google.com/file/d/1BrqPNXyQPgYKTzKbj5nD-EmhQlvbMIeq/preview",
+    "downloadUrl": "https://drive.google.com/uc?id=1BrqPNXyQPgYKTzKbj5nD-EmhQlvbMIeq&export=download",
+    "baselineFile": "Cantay_Resume.pdf",
+    "baselineDate": "2026-11-21",
+    "baselineSha256": "09e79327eee48ded5358fd071be097e518e99b471f05f6eead7c3b9c5cd60a07"
+  },
+  "socialLinks": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/cantayus/",
+      "id": "sociallinks-linkedin"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/CantayCaliskan",
+      "id": "sociallinks-twitter"
+    },
+    {
+      "name": "SSRN",
+      "url": "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5051418",
+      "id": "sociallinks-ssrn"
+    }
+  ],
+  "sourceUrls": [
+    "https://www.cantaycaliskan.net/",
+    "https://www.cantaycaliskan.net/teaching",
+    "https://www.cantaycaliskan.net/book-project",
+    "https://www.cantaycaliskan.net/curriculum-vitae",
+    "https://www.hajim.rochester.edu/dsc/people/faculty/caliskan-cantay/index.html",
+    "https://thesocietyatlas.net/",
+    "https://cantayus.github.io/society-atlas/",
+    "https://cantayus.github.io/the-missing-variable/"
+  ],
+  "headshot": {
+    "src": "/people/cantay-portrait.png",
+    "alt": "Cantay Caliskan",
+    "source": "Provided by Cantay Caliskan"
+  },
+  "invitedTalks": [
+    {
+      "id": "talk-resurrecting-theology-hbku-2026-12",
+      "title": "Resurrecting Theology: When Historical Scholars Confront the Modern World Through AI",
+      "institution": "Hamad Bin Khalifa University",
+      "date": "December 2026",
+      "year": 2026,
+      "upcoming": true
+    },
+    {
+      "id": "talk-ai-humanities-rochester-2026-11",
+      "title": "A Case Study on the Use of AI in the Humanities",
+      "institution": "University of Rochester, Humanities Center",
+      "date": "November 2026",
+      "year": 2026
+    },
+    {
+      "id": "talk-computational-social-science-rochester-2026-04",
+      "title": "Computational Social Science: Past, Present, and Future",
+      "institution": "University of Rochester, Yellowjacket Research Experience Lecture Series and Complex Systems Seminar Series",
+      "date": "April 2026",
+      "year": 2026
+    },
+    {
+      "id": "talk-party-positions-usc-2024-12",
+      "title": "Using Generative AI to Calculate Party Positions: A Comparison of Human Experts and Large Language Models",
+      "institution": "USC Price School of Public Policy",
+      "date": "December 2024",
+      "year": 2024
+    },
+    {
+      "id": "talk-veiled-metrics-american-2024-02",
+      "title": "Veiled Metrics: Measuring Political Polarization Through Interactions Between Religious and Non-Religious Citizens",
+      "institution": "American University",
+      "date": "February 2024",
+      "year": 2024
+    },
+    {
+      "id": "talk-fight-or-flight-koc-2024-02",
+      "title": "Fight or Flight on Fox?: Partisan Fear Responses on U.S. Cable News Shows",
+      "institution": "Koç University",
+      "date": "February 2024",
+      "year": 2024
+    }
+  ],
+  "university": "University of Rochester",
+  "location": "Rochester, New York",
+  "writing": {
+    "researchIntro": "I use artificial intelligence, machine learning and deep learning, network analysis, and natural language processing to uncover patterns in social and political data.",
+    "researchNarrative": [
+      "I am particularly interested in questions that are straightforward to pose but computationally difficult to answer. How do networks reveal political influence and polarization? What can images, video, and audio tell us about communication, social divisions, and the visibility of political power? I build original datasets and research tools to investigate these questions.",
+      "My projects connect computational methods with substantive social science questions. They examine how people stand near one another in public space, where political parties display their symbols, how judges participate in hearings, and how political actors communicate through speech and emotion. Across this work, I distinguish descriptive patterns from causal explanations and ask whether a measure captures the concept it claims to represent.",
+      "I also evaluate the systems doing the measuring. I compare computational judgments with human expertise, study biases in AI-generated representations, and develop interpretable measures and reproducible workflows. Open Python software and collaboration with student researchers are central to how I do this work."
+    ],
+    "researchThemes": [
+      {
+        "name": "Politics in public space",
+        "description": "I study social distance, visible identities, flags, party offices, and the ways political power becomes visible in everyday surroundings."
+      },
+      {
+        "name": "Networks and political influence",
+        "description": "I use network models to examine elite interactions, lobbying, information diffusion, and political polarization."
+      },
+      {
+        "name": "Communication and emotion",
+        "description": "I combine images, video, speech, and text to investigate nonverbal behavior and political communication in news, diplomacy, debates, and court hearings."
+      },
+      {
+        "name": "AI measurement and bias",
+        "description": "I test the accuracy, biases, and limitations of language and vision models, with attention to validation, interpretation, and reproducibility."
+      },
+      {
+        "name": "History and video games",
+        "description": "I ask what it means for a game to get history right, examining how games reconstruct architecture and other dimensions of the past while simplifying or inventing others."
+      },
+      {
+        "name": "Research software",
+        "description": "I develop Python tools that help researchers extract, label, and analyze social information from images, video, audio, and webpages."
+      }
+    ],
+    "teachingIntro": "I teach data science, machine learning, and computational social science, and supervise student research across these areas.",
+    "teachingNarrative": [
+      "My courses combine lectures and concept quizzes with labs, projects, and Kaggle challenges. Students work with real datasets, implement methods, evaluate models, and explain their decisions. Teaching in small liberal arts classrooms, large lectures, and mixed in-person and remote settings has also led me to use flipped modules, structured peer review, and low-stakes assessments.",
+      "I supervise student research in computational social science and AI."
+    ],
+    "teachingPrinciples": [
+      {
+        "title": "Use the method",
+        "description": "I ask students to apply methods to messy, real-world problems through labs, projects, and individual and team challenges."
+      },
+      {
+        "title": "Understand why it works",
+        "description": "Programming and AI tools support the work, while exams test the mathematical and conceptual understanding students need to judge the results."
+      },
+      {
+        "title": "Make assumptions visible",
+        "description": "Classroom exercises turn questions about bias, evaluation, and the limits of AI into things students can inspect and discuss."
+      },
+      {
+        "title": "Build relationships",
+        "description": "I meet students to discuss their goals, coursework, and next steps, and maintain contact after the semester ends."
+      },
+      {
+        "title": "Make research accessible",
+        "description": "I supervise student projects in computational social science and AI."
+      }
+    ],
+    "aboutIntro": "My work spans empirical and methodological applications in computational social science, computer vision, generative AI, natural language processing, and video games. I focus on interpretable, scalable methods for measuring behavior, narratives, and emotions across platforms. I also build open-source research tools and mentor student researchers."
+  },
+  "editorialPreferences": {
+    "excludedWebsiteSections": [
+      "grants",
+      "academic service"
+    ],
+    "nameTrailingPeriod": false,
+    "singleColorHeadings": true,
+    "homepageFocus": "Academic background, current role, portrait and SICSS; papers follow below",
+    "tone": "Plain professional first-person writing. No decorative slogans.",
+    "excludedTeachingDetails": "Do not describe unfinished-project lectures, paper-presentation admissions steps, or ongoing contact after a course.",
+    "authorNameOverrides": {
+      "halalllm-kosherllm": "Ciarrah Wang"
+    },
+    "researchAliases": {
+      "political-bias-ai-images": "imagined-congress",
+      "flag-placement-optimization": "political-symbols-amenities"
+    },
+    "cvPresentation": "Display the Google Drive CV directly within the CV page. Do not add a CV download link or show an update date.",
+    "teachingPresentation": "Do not display Data Science Capstone or the paragraphs about allowing generative AI on assignments and the profession-description bias exercise. Present the broader teaching approach and verified lifetime teaching and research-supervision totals. Course-section totals include historical teaching, even when a course is omitted from the portfolio.",
+    "headingStyle": "Use plain, upright titles in a single color. Do not mix italic and regular text within a title or add promotional subtitles such as From class to research.",
+    "navigation": "Keep Research, Games, Teaching, About, CV, and Research opportunities visibly accessible at the top on desktop and mobile. Do not hide the primary navigation in a dropdown or hamburger menu.",
+    "researchOpportunities": "Show a prominent Explore research opportunities link on both the homepage and Research page, linking to the standalone Research opportunities page at /research-with-me with the existing research-interest form."
+  },
+  "featuredResearch": [
+    "judicial-voice",
+    "partisan-visibility",
+    "resurrecting-theology",
+    "campus-sustainability",
+    "judges-emotions",
+    "legopolitics"
+  ]
+}
