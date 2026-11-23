@@ -127,53 +127,281 @@
   ],
   "software": [
     {
-      "name": "FlagSense",
-      "description": "A Python library for analyzing Google Street View images to classify and measure national and state flags using deep learning.",
-      "url": "https://github.com/tiloftus/flagsense",
-      "id": "software-flagsense"
+      "name": "WhoSpoke",
+      "description": "Identify who speaks in video by combining transcription, diarization, reference-based voice and face matching, and visual speaking cues.",
+      "url": "https://github.com/cantayus/WhoSpoke",
+      "id": "software-whospoke",
+      "kind": "Python package",
+      "features": [
+        "Timestamped transcripts with evidence for speaker assignments",
+        "CSV and JSON exports",
+        "Configurable audio and visual models"
+      ],
+      "install": "pip install WhoSpoke",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/cantayus/WhoSpoke"
+        },
+        {
+          "label": "PyPI",
+          "url": "https://pypi.org/project/WhoSpoke/"
+        }
+      ],
+      "paperId": "judicial-voice"
     },
     {
       "name": "LUMOS",
-      "description": "A Python package for testing how large language models capture image salience using bounding boxes and segmentation masks.",
+      "description": "Compare how multimodal language models locate salient objects in images, refine predicted boxes into masks, and evaluate the results against reference annotations.",
       "url": "https://github.com/NNyarlathotep/Lumos-Salience",
-      "id": "software-lumos"
+      "id": "software-lumos",
+      "kind": "Python package",
+      "features": [
+        "Bounding-box and segmentation-mask comparisons",
+        "Segment Anything mask refinement",
+        "Model evaluation and visual examples"
+      ],
+      "install": "pip install lumos-salience",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/NNyarlathotep/Lumos-Salience"
+        },
+        {
+          "label": "PyPI",
+          "url": "https://pypi.org/project/lumos-salience/"
+        }
+      ],
+      "paperId": "lumos",
+      "figureId": "methods-lumos-bird"
     },
     {
       "name": "DEVISE",
-      "description": "A depth-aware Python package that quantifies grass, plant, and tree coverage in panoramic urban images.",
+      "description": "Measure tree, grass, and plant coverage in street imagery using semantic segmentation, color filtering, and optional depth weighting.",
       "url": "https://github.com/NNyarlathotep/DEVISE",
-      "id": "software-devise"
+      "id": "software-devise",
+      "kind": "Python package",
+      "features": [
+        "Vegetation masks and annotated overlays",
+        "Depth-aware greenness measurements",
+        "SQLite measurement exports"
+      ],
+      "install": "pip install devise-greenness",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/NNyarlathotep/DEVISE"
+        },
+        {
+          "label": "PyPI",
+          "url": "https://pypi.org/project/devise-greenness/"
+        }
+      ],
+      "paperId": "devise",
+      "example": {
+        "src": "/software/devise-pipeline.jpg",
+        "width": 5400,
+        "height": 1040,
+        "title": "From a street image to vegetation and depth",
+        "alt": "DEVISE repository example with the original street photograph, measured vegetation overlay, and depth map.",
+        "caption": "The repository’s example shows the original image, vegetation result, and depth map.",
+        "sourceUrl": "https://github.com/NNyarlathotep/DEVISE/blob/main/example_images/test1_sample.jpg",
+        "credit": "Source: DEVISE public repository."
+      }
     },
     {
-      "name": "SimCityNet",
-      "description": "A Python library for labeling urban features, including vegetation, vehicles, pedestrians, structural features, and color distribution.",
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5369073",
-      "id": "software-simcitynet",
-      "linkLabel": "Research paper"
+      "name": "FlagSense",
+      "description": "Detect and classify national and territorial flags in images using all-country or continent-specific YOLO models.",
+      "url": "https://github.com/tiloftus/flagsense",
+      "id": "software-flagsense",
+      "kind": "Python package",
+      "features": [
+        "Detection and classification models",
+        "Exportable YOLO and COCO annotations",
+        "Optional image overlays"
+      ],
+      "install": "pip install flagsense",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tiloftus/flagsense"
+        },
+        {
+          "label": "PyPI",
+          "url": "https://pypi.org/project/flagsense/"
+        }
+      ],
+      "paperId": "political-symbols-amenities",
+      "example": {
+        "src": "/software/flagsense-example.png",
+        "width": 480,
+        "height": 270,
+        "title": "Flag detections in an image",
+        "alt": "FlagSense repository example showing flag detections with labels and bounding boxes.",
+        "caption": "An example detection overlay from the FlagSense repository.",
+        "sourceUrl": "https://github.com/tiloftus/flagsense/blob/main/images/france_brazil.png",
+        "credit": "Source: FlagSense public repository."
+      }
     },
     {
       "name": "WebVest",
-      "description": "A Python library for measuring webpage element salience through layout, OCR, translation, image analysis, and visual saliency detection.",
+      "description": "Turn websites into structured text and image datasets, then rank elements by their size, position, and importance within the site’s link graph.",
       "url": "https://pypi.org/project/web-vest/",
-      "id": "software-webvest"
-    },
-    {
-      "name": "WhoSpoke",
-      "description": "Multimodal speaker identification integrating diarization, multilingual speech recognition, voice matching, face recognition, and timestamped transcripts.",
-      "url": "https://github.com/cantayus/WhoSpoke",
-      "id": "software-whospoke"
+      "id": "software-webvest",
+      "kind": "Python package",
+      "features": [
+        "Webpage extraction, image captioning, and translation",
+        "Website graphs and element-ranking measures",
+        "Structured CSV outputs"
+      ],
+      "install": "pip install web-vest",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/wherearethepizzas/vest"
+        },
+        {
+          "label": "PyPI",
+          "url": "https://pypi.org/project/web-vest/"
+        }
+      ],
+      "example": {
+        "src": "/software/webvest-pipeline.png",
+        "width": 2572,
+        "height": 916,
+        "title": "The WebVest processing pipeline",
+        "alt": "The WebVest repository’s pipeline diagram showing webpage inputs, extraction, ranking, and structured outputs.",
+        "caption": "The repository’s pipeline diagram outlines how webpages become structured research data.",
+        "sourceUrl": "https://github.com/wherearethepizzas/vest/blob/main/src/web_vest/resources/vot_pipeline_graph.png",
+        "credit": "Source: WebVest public repository."
+      }
     },
     {
       "name": "Legopolitics",
-      "description": "A multimodal Python package for studying political narratives in brick-built videos with computer vision, audio analysis, and LLM-based coding.",
+      "description": "Turn political animations into linked datasets of scenes, figures, interactions, dialogue, and narrative codes.",
       "url": "https://github.com/cantayus/legopolitics",
-      "id": "software-legopolitics"
+      "id": "software-legopolitics",
+      "kind": "Python package",
+      "features": [
+        "Configurable vision and audio models",
+        "Model-agreement checks and human validation",
+        "Reproducible research exports"
+      ],
+      "install": "pip install legopolitics",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/cantayus/legopolitics"
+        },
+        {
+          "label": "Documentation",
+          "url": "https://cantayus.github.io/legopolitics/"
+        },
+        {
+          "label": "PyPI",
+          "url": "https://pypi.org/project/legopolitics/"
+        }
+      ],
+      "paperId": "legopolitics",
+      "figureId": "legopolitics-selective-suffering"
+    },
+    {
+      "name": "SimCityNet",
+      "description": "Compare real and synthetic street imagery through 33 interpretable measurements of vegetation, colors, pedestrians, vehicles, and built surfaces.",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5369073",
+      "id": "software-simcitynet",
+      "linkLabel": "Research paper",
+      "kind": "Research implementation",
+      "features": [
+        "Interpretable urban measurements",
+        "Real and generated image comparisons"
+      ],
+      "links": [
+        {
+          "label": "Research paper",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5369073"
+        }
+      ],
+      "paperId": "simcitynet",
+      "figureId": "simcitynet-europe-comparison"
+    },
+    {
+      "id": "software-across",
+      "name": "ACROSS",
+      "kind": "Research implementation",
+      "description": "Identify unusual country-level observations by combining complementary outlier detectors and scaling strategies.",
+      "features": [
+        "Ensemble outlier detection",
+        "Country-level research applications",
+        "Python implementation included in the paper"
+      ],
+      "links": [
+        {
+          "label": "Python implementation in paper",
+          "url": "/papers/across.pdf#page=50"
+        },
+        {
+          "label": "SSRN",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5074429"
+        }
+      ],
+      "url": "/papers/across.pdf#page=50",
+      "paperId": "across",
+      "figureId": "methods-across-candidate-outliers"
     },
     {
       "name": "Playable Past",
-      "description": "A digital heritage dataset and research website exploring how video games reconstruct historical architecture and cultural heritage.",
+      "description": "Explore the real places that video games rebuild. Search landmarks or games, browse historical periods, and compare photographs with in-game depictions.",
       "url": "https://playablepast.com/",
-      "id": "software-playable-past"
+      "id": "software-playable-past",
+      "kind": "Research website and Python dataset",
+      "features": [
+        "1,116 places across 76 games",
+        "1,452 in-game depictions with source records",
+        "Side-by-side and overlay comparisons"
+      ],
+      "packageName": "gameheritage",
+      "packageDescription": "Bring the collection into Python: search linked tables, display image pairs, and download images with attribution.",
+      "install": "pip install \"git+https://github.com/cantayus/gameheritage@v0.1.0\"",
+      "links": [
+        {
+          "label": "PlayablePast.com",
+          "url": "https://playablepast.com/"
+        },
+        {
+          "label": "Python package",
+          "url": "https://github.com/cantayus/gameheritage"
+        },
+        {
+          "label": "Explorer source",
+          "url": "https://github.com/cantayus/video-game-digital-heritage"
+        }
+      ],
+      "paperId": "playable-past",
+      "collaborators": [
+        "Cantay Caliskan",
+        "Mija Aleksandraviciute"
+      ],
+      "images": {
+        "photo": "/software/playable-past-photo.webp",
+        "game": "/software/playable-past-game.webp",
+        "photoWidth": 889,
+        "photoHeight": 1200,
+        "gameWidth": 1200,
+        "gameHeight": 675,
+        "photoCredit": "P e z i, CC BY-SA 3.0",
+        "photoSource": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris_2013-07-24.jpg",
+        "photoLicense": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "gameCredit": "Assassin’s Creed Unity, © the game’s publisher",
+        "gameSource": "https://assassinscreed.fandom.com/wiki/File:ACU_Notre-Dame.png",
+        "placeUrl": "https://cantayus.github.io/video-game-digital-heritage/#/place/notre-dame-de-paris"
+      },
+      "collection": {
+        "places": 1116,
+        "games": 76,
+        "depictions": 1452
+      },
+      "affiliation": "University of Rochester"
     }
   ],
   "games": [
@@ -411,7 +639,8 @@
         "description": "I supervise student projects in computational social science and AI."
       }
     ],
-    "aboutIntro": "My work spans empirical and methodological applications in computational social science, computer vision, generative AI, natural language processing, and video games. I focus on interpretable, scalable methods for measuring behavior, narratives, and emotions across platforms. I also build open-source research tools and mentor student researchers."
+    "aboutIntro": "My work spans empirical and methodological applications in computational social science, computer vision, generative AI, natural language processing, and video games. I focus on interpretable, scalable methods for measuring behavior, narratives, and emotions across platforms. I also build open-source research tools and mentor student researchers.",
+    "softwareIntro": "I develop and collaborate on Python tools for working with images, video, speech, and the web. These projects turn research methods into software that others can inspect, adapt, and use."
   },
   "editorialPreferences": {
     "excludedWebsiteSections": [
@@ -433,8 +662,9 @@
     "cvPresentation": "Display the Google Drive CV directly within the CV page. Do not add a CV download link or show an update date.",
     "teachingPresentation": "Do not display Data Science Capstone or the paragraphs about allowing generative AI on assignments and the profession-description bias exercise. Present the broader teaching approach and verified lifetime teaching and research-supervision totals. Course-section totals include historical teaching, even when a course is omitted from the portfolio.",
     "headingStyle": "Use plain, upright titles in a single color. Do not mix italic and regular text within a title or add promotional subtitles such as From class to research.",
-    "navigation": "Keep Research, Games, Teaching, About, CV, and Research opportunities visibly accessible at the top on desktop and mobile. Do not hide the primary navigation in a dropdown or hamburger menu.",
-    "researchOpportunities": "Show a prominent Explore research opportunities link on both the homepage and Research page, linking to the standalone Research opportunities page at /research-with-me with the existing research-interest form."
+    "navigation": "Keep Research, Software, Games, Teaching, About, CV, and Research opportunities visibly accessible at the top on desktop and mobile. Do not hide the primary navigation in a dropdown or hamburger menu.",
+    "researchOpportunities": "Show a prominent Explore research opportunities link on both the homepage and Research page, linking to the standalone Research opportunities page at /research-with-me with the existing research-interest form.",
+    "softwarePresentation": "Keep a prominent Software section and highlight PlayablePast.com. Use verified public repository examples or original paper figures, preserve image credits, and distinguish published Python packages from research implementations. Do not use promotional composite illustrations with unclear provenance. Do not expose private repository links or invent package-install commands."
   },
   "featuredResearch": [
     "judicial-voice",

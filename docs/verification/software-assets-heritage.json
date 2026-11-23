@@ -1,0 +1,44 @@
+{
+  "project": "Playable Past / Digital Heritage in Video Games",
+  "projectUrl": "https://playablepast.com/",
+  "repositoryUrl": "https://github.com/cantayus/video-game-digital-heritage",
+  "provenanceUrl": "https://github.com/cantayus/video-game-digital-heritage/blob/main/data/places/notre-dame-de-paris.json",
+  "retrievedOn": "2026-11-23",
+  "preservation": "Original downloaded WebP bytes preserved; no resizing, cropping, sharpening, or re-encoding.",
+  "visualInspection": "Both files open correctly and depict Notre-Dame de Paris: an exterior photograph and an Assassin's Creed Unity game view.",
+  "assets": [
+    {
+      "path": "/software/playable-past-photo.webp",
+      "file": "public/software/playable-past-photo.webp",
+      "catalogImageId": "gh-85c37dc8abe4",
+      "width": 889,
+      "height": 1200,
+      "format": "WEBP",
+      "bytes": 195618,
+      "sha256": "12ce7d6d8efff90318a4fbed611732ac24935b227a511f87e143fd6fec41a89c",
+      "sourceImageUrl": "https://raw.githubusercontent.com/cantayus/video-game-digital-heritage/main/img/full/gh-85c37dc8abe4.webp",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris_2013-07-24.jpg",
+      "title": "Notre-Dame de Paris 2013-07-24.jpg",
+      "creator": "P e z i",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "creditLine": "Photograph: P e z i, CC BY-SA 3.0, via Wikimedia Commons."
+    },
+    {
+      "path": "/software/playable-past-game.webp",
+      "file": "public/software/playable-past-game.webp",
+      "catalogImageId": "gh-d5419275d4de",
+      "width": 1200,
+      "height": 675,
+      "format": "WEBP",
+      "bytes": 132986,
+      "sha256": "1d5989fdeed38b1ce3c965ebd727a42c1b727f8237353da37fff2a32e7e52b7c",
+      "sourceImageUrl": "https://raw.githubusercontent.com/cantayus/video-game-digital-heritage/main/img/full/gh-d5419275d4de.webp",
+      "sourcePageUrl": "https://assassinscreed.fandom.com/wiki/File:ACU_Notre-Dame.png",
+      "game": "Assassin's Creed Unity",
+      "creditLine": "Screenshot from Assassin's Creed Unity, © the game's publisher. Source: Fandom (assassinscreed).",
+      "catalogUploadNote": "Fandom upload by Bovkaffe on 2015-07-20",
+      "rights": "Game imagery retains the game publisher's copyright; the source collection displays it for research and commentary."
+    }
+  ]
+}

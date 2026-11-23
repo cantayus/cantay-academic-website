@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-23T21:37:01.316Z",
+  "checkedAt": "2026-11-23T23:11:46.755Z",
   "base": "http://127.0.0.1:5173",
   "routes": [
     {
@@ -35,7 +35,7 @@
     {
       "route": "/research-with-me",
       "status": 200,
-      "title": "Research with me"
+      "title": "Research opportunities"
     },
     {
       "route": "/research/across",
@@ -283,6 +283,11 @@
       "title": "Waving the Flag: Measuring Nationalism Through National Symbols Across Europe"
     },
     {
+      "route": "/software",
+      "status": 200,
+      "title": "Research software"
+    },
+    {
       "route": "/teaching",
       "status": 200,
       "title": "Teaching"
@@ -292,7 +297,7 @@
   "ssrnEntries": 22,
   "fullTextsReviewed": 28,
   "figureCount": 47,
-  "assetCount": 70,
+  "assetCount": 75,
   "analyticsConfigured": false,
   "writerUnauthorizedStatus": 503,
   "driveSource": {

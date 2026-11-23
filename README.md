@@ -1,6 +1,6 @@
 # Cantay Caliskan — academic website
 
-Source for Cantay Caliskan’s personal academic website: research, original paper figures, educational games, teaching, background, and an embedded Google Drive CV. The interface includes light and dark themes and a searchable research index.
+Source for Cantay Caliskan’s personal academic website: research, Python software, original paper figures, educational games, teaching, background, and an embedded Google Drive CV. The interface includes light and dark themes and a searchable research index.
 
 ## Run locally
 

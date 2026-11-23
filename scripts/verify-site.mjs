@@ -4,13 +4,13 @@ const base=process.env.VERIFY_SITE_URL||'http://127.0.0.1:5173';
 const research=JSON.parse(await fs.readFile('content/research.json','utf8'));
 const figures=JSON.parse(await fs.readFile('content/figures.json','utf8'));
 const profile=JSON.parse(await fs.readFile('content/profile.json','utf8'));
-const routes=['/','/research','/games','/teaching','/about','/cv','/research-with-me','/privacy',...research.map(p=>`/research/${p.id}`)];
+const routes=['/','/research','/software','/games','/teaching','/about','/cv','/research-with-me','/privacy',...research.map(p=>`/research/${p.id}`)];
 const results=[];const failures=[];const ids=new Set();
 for(const p of research){if(ids.has(p.id))failures.push(`Duplicate paper ID: ${p.id}`);ids.add(p.id);if(!p.title||!p.authors.length)failures.push(`Incomplete paper: ${p.id}`);}
 const decode=s=>s.replace(/&amp;/g,'&').replace(/&#x27;|&#39;/g,"'").replace(/&quot;/g,'"').replace(/&lt;/g,'<').replace(/&gt;/g,'>');
 let next=0;
 await Promise.all(Array.from({length:4},async()=>{while(next<routes.length){const route=routes[next++];try{const r=await fetch(base+route);const html=await r.text();const headings=[...html.matchAll(/<h1[^>]*>([\s\S]*?)<\/h1>/g)].map(x=>decode(x[1].replace(/<[^>]+>/g,'')));const paper=research.find(p=>route===`/research/${p.id}`);if(r.status!==200)failures.push(`${route}: HTTP ${r.status}`);if(headings.length!==1)failures.push(`${route}: ${headings.length} h1 headings`);if(paper&&headings[0]!==paper.title)failures.push(`${route}: wrong paper title`);if(/Starter Project|lorem ipsum|TODO:|>\s*PLACEHOLDER[<\s]/i.test(html))failures.push(`${route}: placeholder content`);results.push({route,status:r.status,title:headings[0]});}catch(e){failures.push(`${route}: ${e.message}`)}}}));
-const assets=new Set([...figures.map(f=>f.src),...research.flatMap(p=>p.links.filter(l=>l.url.startsWith('/papers/')).map(l=>l.url.split('#')[0])),profile.headshot.src,...profile.games.map(g=>g.image),'/papers/cantay-caliskan-cv.pdf','/fonts/newsreader-regular.ttf','/fonts/newsreader-italic.ttf','/fonts/dm-sans-regular.ttf','/fonts/dm-sans-medium.ttf']);
+const assets=new Set([...figures.map(f=>f.src),...research.flatMap(p=>p.links.filter(l=>l.url.startsWith('/papers/')).map(l=>l.url.split('#')[0])),profile.headshot.src,...profile.games.map(g=>g.image),...(profile.software||[]).flatMap(p=>[p.example?.src,p.images?.photo,p.images?.game].filter(Boolean)),'/papers/cantay-caliskan-cv.pdf','/fonts/newsreader-regular.ttf','/fonts/newsreader-italic.ttf','/fonts/dm-sans-regular.ttf','/fonts/dm-sans-medium.ttf']);
 for(const path of assets){try{const data=await fs.readFile('public'+path);if(!data.byteLength)failures.push(`Empty asset: ${path}`);}catch{failures.push(`Missing asset: ${path}`)}}
 for(const figure of figures){if(!ids.has(figure.paperId))failures.push(`Figure missing paper: ${figure.id}`)}
 const config=await(await fetch(base+'/api/site-config')).json();if(config.measurementId!==null&&!/^G-[A-Z0-9]+$/.test(config.measurementId))failures.push('Invalid Analytics configuration');

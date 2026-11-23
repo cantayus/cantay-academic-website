@@ -166,3 +166,56 @@ h1 em,h2 em,h3 em{font-style:normal;color:inherit}
 /* Keep navigation visible at every viewport width. */
 @media(max-width:1100px){html{scroll-padding-top:160px}.header-inner{display:grid;grid-template-columns:minmax(0,1fr) auto;height:auto;gap:9px 20px;padding-block:17px 12px}.header-inner>.wordmark{grid-column:1;grid-row:1;justify-self:start}.header-controls{grid-column:2;grid-row:1;justify-self:end}.main-nav{display:flex;position:static;grid-column:1/-1;grid-row:2;flex-wrap:wrap;align-items:center;gap:3px 24px;padding:0;background:transparent;border:0;box-shadow:none}.main-nav>a{width:auto;font-size:.9375rem;line-height:1.4;padding-block:8px}.main-nav .nav-work{border:0;padding-left:0}.menu-toggle{display:none}}
 @media(max-width:600px){.header-inner{padding-block:15px 9px;gap:8px 16px}.main-nav{gap:1px 19px}.main-nav>a{font-size:.875rem;padding-block:8px}.theme-toggle{padding-left:0}}
+
+/* Research software and the Playable Past collection. */
+.software-page{padding-bottom:110px}
+.playable-past-feature{display:grid;grid-template-columns:1.1fr 1fr;gap:46px;padding:38px;background:var(--surface);border:1px solid var(--rule);border-top:2px solid var(--red);align-items:start}
+.heritage-visual,.heritage-copy{min-width:0}
+.heritage-images{display:grid;grid-template-columns:1fr 1fr;gap:10px;text-decoration:none!important}
+.heritage-images figure{background:var(--paper);min-width:0}
+.heritage-images img{width:100%;height:300px;object-fit:cover}
+.heritage-images figcaption{padding:10px 12px;color:#22372c;font-size:.875rem;line-height:1.5}
+.heritage-credit{font-size:.75rem;line-height:1.7;color:var(--muted);margin-top:14px}
+.heritage-credit a{text-decoration:underline}
+.heritage-copy h2,.heritage-copy h3{font-size:clamp(2.5rem,4vw,3.8rem);margin-top:13px;line-height:1.08}
+.heritage-copy>p{margin-top:21px;font-size:1rem;line-height:1.8}
+.heritage-copy>.button{margin-top:26px}
+.heritage-copy .heritage-collaboration{font-size:.875rem;line-height:1.75;color:var(--muted)}
+.heritage-package{margin-top:28px;padding-top:24px;border-top:1px solid var(--rule)}
+.heritage-package h3{font-size:1.8rem;margin:0}
+.heritage-package>p{font-size:.9375rem;line-height:1.8;margin-top:12px}
+.install-command{display:flex;align-items:flex-start;gap:14px;border:1px solid var(--rule);background:var(--page);padding:13px 15px;margin-top:21px;min-width:0}
+.install-command code{min-width:0;flex:1;font-family:SFMono-Regular,Consolas,'Liberation Mono',monospace;font-size:.875rem;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere;color:var(--ink)}
+.install-command button{flex-shrink:0;padding:2px 0 2px 8px;color:var(--green);font-size:.875rem;line-height:1.7;border-left:1px solid var(--rule)}
+.software-links{display:flex;flex-wrap:wrap;gap:10px 23px;margin-top:21px;font-size:.875rem;color:var(--green);line-height:1.6}
+.software-links a{text-decoration:underline}
+.software-catalog{padding-top:84px}
+.software-catalog .section-heading{margin-bottom:25px}
+.software-jump-links{display:flex;flex-wrap:wrap;gap:12px 25px;padding:0 0 32px;border-bottom:1px solid var(--rule);font-size:.9375rem;color:var(--green)}
+.software-jump-links a{text-decoration:underline}
+.software-catalog-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:62px;row-gap:70px;padding-top:44px}
+.software-entry{min-width:0;scroll-margin-top:165px}
+.software-entry>h3{font-size:2.7rem;line-height:1.1;margin-top:14px}
+.software-description{font-size:1.0625rem;line-height:1.8;margin-top:20px}
+.software-entry>ul{font-size:.9375rem;line-height:1.8;color:var(--body);margin-top:18px;margin-bottom:0}
+.software-entry>ul li+li{margin-top:5px}
+.software-example{margin-top:30px}
+.software-example-image{display:block;position:relative;width:100%;padding:13px;border:1px solid var(--rule);background:#fff}
+.software-example-image img{width:100%;max-height:330px;object-fit:contain}
+.software-example-image>span{position:absolute;bottom:8px;right:8px;padding:3px 8px;background:#fff;color:#22372c;border:1px solid #d8ded6;font-size:.8125rem;line-height:1.5}
+.software-example figcaption{display:flex;flex-direction:column;gap:8px;padding-top:15px;font-size:.875rem;line-height:1.7}
+.software-example figcaption>strong{font-size:.9375rem;font-weight:500}
+.software-example figcaption>p{font-size:.875rem;line-height:1.75}
+.software-example figcaption>a{width:fit-content;color:var(--green);text-decoration:underline}
+.software-example figcaption>small{font-size:.75rem;color:var(--muted)}
+.small-example .software-example-image img{width:auto;max-width:min(240px,100%);margin-inline:auto}
+.home-software-index{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px;padding-bottom:50px}
+.home-software-index h3{font-size:2.2rem}
+.home-software-index p{font-size:.9375rem;line-height:1.8;margin-top:16px}
+.home-software .playable-past-feature{margin-top:14px}
+.about-software-link{padding-block:45px 65px;border-bottom:1px solid var(--rule)}
+.about-software-link>p{font-size:1.0625rem;line-height:1.8;max-width:680px;margin-top:20px}
+.about-software-link>.text-link{margin-top:21px}
+@media(max-width:1100px){.playable-past-feature{gap:30px;padding:28px}.heritage-images img{height:260px}.software-catalog-grid{column-gap:38px}}
+@media(max-width:850px){.playable-past-feature{grid-template-columns:1fr;gap:30px}.heritage-images img{height:320px}.software-catalog-grid{grid-template-columns:1fr;gap:60px}.software-example-image img{max-height:430px}.home-software-index{gap:24px}}
+@media(max-width:600px){.software-page{padding-bottom:65px}.playable-past-feature{padding:21px;gap:25px}.heritage-images{gap:8px}.heritage-images img{height:220px}.heritage-images figcaption{padding:8px;font-size:.8125rem}.heritage-copy h2,.heritage-copy h3{font-size:2.7rem}.heritage-copy>p{font-size:1rem}.heritage-credit{font-size:.75rem}.heritage-package h3{font-size:1.7rem}.software-catalog{padding-top:50px}.software-jump-links{gap:12px 21px;padding-bottom:26px;font-size:.875rem}.software-catalog-grid{padding-top:31px;gap:50px}.software-entry>h3{font-size:2.5rem}.software-description{font-size:1rem}.software-entry>ul{font-size:.9375rem}.install-command{padding:12px;gap:9px}.install-command code,.install-command button{font-size:.8125rem}.software-example-image{padding:8px}.software-example-image img{max-height:330px}.home-software-index{grid-template-columns:1fr;gap:0;padding-bottom:25px}.home-software-index article{padding-block:22px;border-top:1px solid var(--rule)}.home-software-index h3{font-size:2rem}.home-software-index p{margin-top:13px}.about-software-link{padding-block:32px 45px}}

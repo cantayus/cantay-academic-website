@@ -1,0 +1,54 @@
+{
+  "verifiedAt": "2026-11-23",
+  "method": "Downloaded original files from verified public repositories using curl -L; checked image decoding and exact native dimensions; visually inspected all three files. No generated or redrawn imagery.",
+  "assets": [
+    {
+      "id": "devise-pipeline",
+      "package": "DEVISE",
+      "path": "public/software/devise-pipeline.jpg",
+      "sourceUrl": "https://raw.githubusercontent.com/NNyarlathotep/DEVISE/main/example_images/test1_sample.jpg",
+      "sourcePage": "https://github.com/NNyarlathotep/DEVISE/blob/main/readme.md",
+      "credit": "DEVISE project README example, Caliskan, Chen, Zhao, Yang and Zhang.",
+      "description": "Original image, vegetation segmentation result and depth map from the public DEVISE README.",
+      "width": 5400,
+      "height": 1040,
+      "format": "JPEG",
+      "bytes": 824089,
+      "sha256": "e31d082f997115b5fafe7d0a678ef182af2dd847f55c64a4db4e954db6341c7f",
+      "transformations": "None. Original downloaded bytes and pixel dimensions preserved.",
+      "visuallyInspected": true
+    },
+    {
+      "id": "webvest-pipeline",
+      "package": "WebVest / V.E.S.T.",
+      "path": "public/software/webvest-pipeline.png",
+      "sourceUrl": "https://raw.githubusercontent.com/wherearethepizzas/vest/main/src/web_vest/resources/vot_pipeline_graph.png",
+      "sourcePage": "https://github.com/wherearethepizzas/vest/blob/main/README.md",
+      "credit": "V.E.S.T. project README pipeline diagram; WebVest authors Cantay Caliskan, Joyce Zhang, Mark Kimani, Mertkan Karaaslan and Niels Weisbeek.",
+      "description": "Project diagram of webpage screenshot conversion, extraction, captioning, salience analysis and translation into CSV.",
+      "width": 2572,
+      "height": 916,
+      "format": "PNG",
+      "bytes": 184650,
+      "sha256": "4794df907151fb460930e400ff6b13940e315314ffe2a69a3dec14e19862618a",
+      "transformations": "None. Original downloaded bytes and pixel dimensions preserved.",
+      "visuallyInspected": true
+    },
+    {
+      "id": "flagsense-example",
+      "package": "FlagSense",
+      "path": "public/software/flagsense-example.png",
+      "sourceUrl": "https://raw.githubusercontent.com/tiloftus/flagsense/main/images/france_brazil.png",
+      "sourcePage": "https://github.com/tiloftus/flagsense/blob/main/README.md",
+      "credit": "FlagSense project README detection example, tiloftus/flagsense.",
+      "description": "National-flag detection example with France and Brazil labels and model confidence values.",
+      "width": 480,
+      "height": 270,
+      "format": "PNG",
+      "bytes": 88449,
+      "sha256": "09f52fe6dbfbd93a03301e38988943158ce92ca1556cc624e595d9bf6e6191ed",
+      "transformations": "None. Original downloaded bytes and pixel dimensions preserved.",
+      "visuallyInspected": true
+    }
+  ]
+}
