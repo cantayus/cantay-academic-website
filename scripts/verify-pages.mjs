@@ -1,0 +1,14 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+const info=JSON.parse(await fs.readFile('dist/build-info.json','utf8'));
+const research=JSON.parse(await fs.readFile('content/research.json','utf8'));
+const figures=JSON.parse(await fs.readFile('content/figures.json','utf8'));
+const failures=[];const assets=new Set();
+const decode=s=>s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#x27;|&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>');
+const site=new URL(info.siteUrl);
+async function checkUrl(raw,from){let u;try{u=new URL(decode(raw),new URL(from,info.siteUrl));}catch{return;}if(u.origin!==site.origin)return;if(!u.pathname.startsWith(info.basePath)){if(/^https?:/.test(raw))return;failures.push(`${from}: missing base path: ${raw}`);return;}const rel=decodeURIComponent(u.pathname.slice(info.basePath.length));let file=path.join('dist',rel);try{let s=await fs.stat(file);if(s.isDirectory())file=path.join(file,'index.html');s=await fs.stat(file);if(!s.size)failures.push(`Empty file: ${file}`);else assets.add(file);}catch{failures.push(`${from}: missing file ${file}`);}}
+for(const route of info.routes){const html=await fs.readFile(path.join('dist',route.url,'index.html'),'utf8');const h1=[...html.matchAll(/<h1[^>]*>([\s\S]*?)<\/h1>/g)].map(x=>decode(x[1].replace(/<[^>]+>/g,'')));if(h1.length!==1)failures.push(`${route.url}: ${h1.length} h1 headings`);const paper=research.find(p=>route.url===`research/${p.id}/`);if(paper&&h1[0]!==paper.title)failures.push(`${route.url}: wrong title`);if(/Starter Project|lorem ipsum|TODO:|>\s*PLACEHOLDER[<\s]/i.test(html))failures.push(`${route.url}: placeholder text`);for(const m of html.matchAll(/\b(?:href|src)="([^"]+)"/g))await checkUrl(m[1],route.url);for(const m of html.matchAll(/\bsrcSet="([^"]+)"/gi))for(const entry of m[1].split(','))await checkUrl(entry.trim().split(/\s+/)[0],route.url);}
+for(const file of await fs.readdir('dist/assets'))if(file.endsWith('.css')){const css=await fs.readFile(`dist/assets/${file}`,'utf8');for(const m of css.matchAll(/url\(["']?([^\)"']+)["']?\)/g))await checkUrl(m[1],`assets/${file}`);}
+for(const f of figures){if(!research.some(p=>p.id===f.paperId))failures.push(`Figure missing paper: ${f.id}`);await fs.access('public'+f.src).catch(()=>failures.push(`Figure missing: ${f.src}`));}
+if(await fs.readFile('dist/robots.txt','utf8').then(s=>s.includes('Disallow: /')))failures.push('Search engines blocked');
+const report={checkedAt:new Date().toISOString(),siteUrl:info.siteUrl,routes:info.routes.length,aliases:info.aliases.length,research:research.length,figures:figures.length,referencedFiles:assets.size,failures};await fs.mkdir('docs/verification',{recursive:true});await fs.writeFile('docs/verification/github-pages.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));if(failures.length)process.exitCode=1;

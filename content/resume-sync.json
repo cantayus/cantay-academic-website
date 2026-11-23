@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "kind": "google-drive",
+    "fileId": "1BrqPNXyQPgYKTzKbj5nD-EmhQlvbMIeq",
+    "viewUrl": "https://drive.google.com/file/d/1BrqPNXyQPgYKTzKbj5nD-EmhQlvbMIeq/view",
+    "downloadUrl": "https://drive.google.com/uc?export=download&id=1BrqPNXyQPgYKTzKbj5nD-EmhQlvbMIeq"
+  },
+  "checksumSha256": "09e79327eee48ded5358fd071be097e518e99b471f05f6eead7c3b9c5cd60a07",
+  "baselineDate": "2026-11-21",
+  "observedAt": "2026-11-23T23:34:17.931Z",
+  "reconciledAt": "2026-11-23T23:21:28.513Z",
+  "sourceBasis": "Canonical public PDF independently inspected through the owner-authenticated source tool and matched to the reviewed content baseline. The reviewed profile and research JSON were preserved during GitHub Pages migration. These timestamps document source verification and baseline reconciliation; they do not assert that the new GitHub update automation has run."
+}

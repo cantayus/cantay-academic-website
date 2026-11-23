@@ -1,55 +1,60 @@
 # Cantay Caliskan — academic website
 
-Source for Cantay Caliskan’s personal academic website: research, Python software, original paper figures, educational games, teaching, background, and an embedded Google Drive CV. The interface includes light and dark themes and a searchable research index.
+A static React website built with Vite for GitHub Pages. It presents research, Python software, original paper figures, educational games, teaching, background, a Google Drive CV, and the research-interest form. It includes light and dark themes and a searchable research catalog.
 
-## Run locally
+## Run and verify
 
 Requires Node.js 22.13 or newer and npm.
 
 ```sh
 npm ci
-npm run dev -- --port 5173 --hostname 127.0.0.1
+npm run dev
 ```
 
-Open the local address printed by the development server.
+Open the address printed by Vite. The default development port is 5174.
 
 ```sh
-npx tsc --noEmit
+npm run check
 npm run build
+npm run verify
+npm run preview
 ```
+
+`npm run build` runs `scripts/build-pages.mjs`, building the browser assets and prerendering complete HTML into `dist/`. The current catalog produces 58 canonical pages and two legacy paper redirects, plus a 404 page, sitemap and robots file. New research entries receive their own page on the next build. Do not edit generated `dist/` files.
 
 ## Edit content
 
-| Content | File |
+| Content | Source |
 | --- | --- |
-| Biography, education, games, CV source, homepage research order | `content/profile.json` |
-| Paper entries, authors, publication status, findings and links | `content/research.json` |
-| Original figures, captions and source-paper links | `content/figures.json` |
+| Biography, education, books, software, games, CV source and homepage research order | `content/profile.json` |
+| Papers, authors, publication categories, findings and links | `content/research.json` |
+| Original figures, captions, credits and paper links | `content/figures.json` |
 | Research and teaching narrative | `content/statements.json` and `profile.writing` |
-| Typography, spacing and theme colors | `app/globals.css` |
+| Last reconciled CV checksum and source identity | `content/resume-sync.json` |
+| Optional analytics measurement ID | `content/site-config.json` |
+| Typography, spacing and themes | `app/globals.css` |
+| Rendering and browser behavior | `src/` and `app/site.tsx` |
 
-Keep each paper’s stable `id` when updating a title or publication status. The homepage follows `profile.featuredResearch`. Keep new studies near the top. See [the editing guide](docs/EDITING.md) for the owner’s editorial requirements.
+GitHub source files are authoritative. Keep stable IDs when updating an existing paper or project. See [the editing guide](docs/EDITING.md) for the owner's requirements.
 
-## CV and updates
+## Publish on GitHub Pages
 
-The CV displays directly from its Google Drive file. Replace that file using Drive’s Manage versions feature to retain its file ID. Do not add CV download links or display an update date on the page.
+The repository is `cantayus/cantay-academic-website`. Select **GitHub Actions** as its Pages publishing source. `.github/workflows/deploy.yml` checks, builds, verifies and deploys `dist/` when `main` changes; it also supports manual dispatch. The workflow obtains the Pages origin and base path from GitHub, so links and assets work under the repository path or a configured custom domain.
 
-The server supports validated content revisions stored in R2. Automatic changes to the rest of the website require an owner-authorized updater to be connected, verified, and scheduled. Its implementation is present, but uploading this repository does not activate that updater. See [automatic updates](docs/automatic-updates.md) and [résumé synchronization](docs/resume-sync.md).
+For a local build, `SITE_BASE_PATH` defaults to `/cantay-academic-website/` and `SITE_ORIGIN` to `https://cantayus.github.io`. A root-domain build uses `SITE_BASE_PATH=/`. Domain and DNS configuration are separate from editing content. Verify the deployment and resulting public pages before describing a new version or domain as live.
 
-## Hosting
+GitHub Pages serves static files. This version has no Worker, R2 database, content-write API or MCP endpoint. Git commits and Pages deployments publish changes to the site's content.
 
-This project runs Vinext as a Cloudflare Worker and uses an R2 `BUCKET` binding for live content. The existing Site identity is recorded in `.openai/hosting.json`; preserve it when continuing work on that Site. Runtime secrets and access settings are configured in the hosting platform, outside Git.
+## CV and automatic updates
 
-GitHub stores the editable source. GitHub Pages alone cannot run the Worker, R2 storage, résumé APIs, or owner-authenticated MCP tools. Uploading this source does not change the existing live website or its domain.
+The CV page embeds the existing public Google Drive file directly. Use Drive's **Manage versions → Upload new version** to keep its file ID. The embedded CV can stay current without a website build. Do not add CV download links or display an update date. The research application continues to use its existing Google Form.
 
-For a different hosting platform, configure a compatible Worker and storage deployment and implement trusted owner authentication before enabling content writes. The `oai-authenticated-user-email` header is supplied by Sites; another host must not trust a client-supplied copy of that header.
+Changes to biography, publications and other website facts require a content commit and Pages deployment. [The automatic-update workflow](docs/automatic-updates.md) describes how an authorized cloud agent can reconcile a changed CV with the latest GitHub content. The previous daily Site task must be retargeted and its GitHub write/deployment path verified; this migration alone does not establish that whole-site synchronization is active.
 
-## Configuration
+## Analytics and assets
 
-The included `.env.example` lists configuration names without credentials. Do not commit local `.env` or `.dev.vars` files. Keep `SITE_OWNER_EMAIL`, `CONTENT_SYNC_TOKEN`, and any provider credentials in host-managed configuration. GA4 remains inactive until a valid measurement ID is configured.
+Analytics is inactive while `content/site-config.json` has a null `measurementId`. A GA4 measurement ID is public configuration, not a credential. If enabled, preserve the existing opt-in behavior and verify collection for the final domain.
 
-## Assets and attribution
+Preserve figure captions, source links, image credits, and font/vendor licenses. The repository does not grant a blanket reuse license for the author's papers, portrait, or third-party research imagery. Verification notes are in `docs/verification` and `docs/research-review`.
 
-Paper figures and full-text links retain their source captions and credits. Preserve those credits and the font/vendor license files. This repository does not grant a blanket reuse license for the author’s papers, portrait, or third-party research figures.
-
-The `docs/verification` and `docs/research-review` directories record the research review and verification work. Their file paths have been generalized for portability. Generated builds, caches, local tool state, credentials, and live R2 content are excluded.
+Do not commit credentials, private application materials, local environment files, caches or generated builds.
