@@ -43,7 +43,7 @@ const analyticsMeasurementId: string | null = siteConfig.measurementId;
 type AnalyticsWindow = Window & {
   dataLayer?: IArguments[];
   gtag?: (...args: unknown[]) => void;
-} & Partial<Record<`ga-disable-${string}`, boolean>>;
+};
 
 function readAnalyticsPreference(): boolean | null {
   try {
@@ -55,7 +55,7 @@ function readAnalyticsPreference(): boolean | null {
 
 function applyAnalyticsPreference(measurementId: string, enabled: boolean) {
   const analyticsWindow = window as AnalyticsWindow;
-  analyticsWindow[`ga-disable-${measurementId}`] = !enabled;
+  Object.assign(analyticsWindow, { [`ga-disable-${measurementId}`]: !enabled });
   if (!enabled || document.getElementById('analytics-script')) return;
 
   const dataLayer = analyticsWindow.dataLayer ??= [];
