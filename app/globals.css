@@ -63,6 +63,7 @@ h1 em,h2 em,h3 em,.hero h1 span{color:inherit}
 .background-hero .hero-copy>.eyebrow{margin-bottom:22px;font-size:.875rem;letter-spacing:.075em}
 .background-hero h1{font-size:5.75rem;line-height:.92;letter-spacing:-.05em;color:var(--ink)}
 .background-hero .hero-position{max-width:550px;margin-top:23px;font-size:1.125rem;font-weight:500;line-height:1.5;color:var(--ink);text-wrap:pretty}
+.background-hero .hero-institution{display:block;margin-top:4px;font-weight:400}
 .background-hero .hero-intro{max-width:540px;margin-top:17px;font-size:1.125rem;line-height:1.65;text-wrap:pretty}
 .background-hero .hero-actions{gap:26px;margin-top:25px;flex-wrap:wrap}
 .hero-profile-photo{width:320px;max-width:100%;justify-self:end;margin:0}
