@@ -649,7 +649,8 @@
     "nameTrailingPeriod": false,
     "singleColorHeadings": true,
     "homepageFocus": "Academic background, current role, portrait and SICSS; papers follow below",
-    "tone": "Plain professional first-person writing. No decorative slogans.",
+    "tone": "Concise, professional first-person writing. Use direct, factual language. No decorative slogans or abstract topic descriptions.",
+    "researchTopicPresentation": "Show category names, paper counts and related papers without descriptive taglines or repeated instructions.",
     "excludedTeachingDetails": "Do not describe unfinished-project lectures, paper-presentation admissions steps, or ongoing contact after a course.",
     "authorNameOverrides": {
       "halalllm-kosherllm": "Ciarrah Wang"

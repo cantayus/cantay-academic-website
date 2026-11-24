@@ -41,6 +41,7 @@ Preserve `profile.editorialPreferences` during every edit and automatic update:
 
 - Do not add grants or academic-service website sections; they remain in the CV.
 - Use plain, upright titles in one ink color. Do not mix italic and regular text within a title, add a decorative period after the name, or add promotional slogans/subtitles.
+- Keep research topics concise: show category names, paper counts and related papers. Do not add abstract topic descriptions, taglines or repeated instructions.
 - Keep the homepage introduction focused on academic background, current role, portrait and SICSS, with research below.
 - Keep Research, Software, Games, Teaching, About, CV and Do research with Cantay visible in the top navigation on desktop and mobile. Narrow-screen links wrap; do not hide them in a dropdown or hamburger menu.
 - Keep a prominent **Do research with Cantay** link on the homepage and Research page. It leads to `/research-with-me/`, which retains the existing research-interest form.
