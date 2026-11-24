@@ -20,7 +20,7 @@ npm run verify
 npm run preview
 ```
 
-`npm run build` runs `scripts/build-pages.mjs`, building the browser assets and prerendering complete HTML into `dist/`. The current catalog produces 58 canonical pages and two legacy paper redirects, plus a 404 page, sitemap and robots file. New research entries receive their own page on the next build. Do not edit generated `dist/` files.
+`npm run build` runs `scripts/build-pages.mjs`, building the browser assets and prerendering complete HTML into `dist/`. The current catalog produces 58 canonical pages and two legacy paper redirects, two former website paths, plus a 404 page, sitemap and robots file. New research entries receive their own page on the next build. Do not edit generated `dist/` files.
 
 ## Edit content
 
@@ -41,7 +41,7 @@ GitHub source files are authoritative. Keep stable IDs when updating an existing
 
 The repository is `cantayus/cantay-academic-website`. Select **GitHub Actions** as its Pages publishing source. `.github/workflows/deploy.yml` checks, builds, verifies and deploys `dist/` when `main` changes; it also supports manual dispatch. The workflow obtains the Pages origin and base path from GitHub, so links and assets work under the repository path or a configured custom domain.
 
-For a local build, `SITE_BASE_PATH` defaults to `/cantay-academic-website/` and `SITE_ORIGIN` to `https://cantayus.github.io`. A root-domain build uses `SITE_BASE_PATH=/`. Domain and DNS configuration are separate from editing content. Verify the deployment and resulting public pages before describing a new version or domain as live.
+The primary website address is `https://www.cantaycaliskan.net/`. For a local build, `SITE_BASE_PATH` defaults to `/` and `SITE_ORIGIN` to `https://www.cantaycaliskan.net`. The shorter `cantay.net` domain forwards to the primary address. A repository-path preview can still set `SITE_BASE_PATH=/cantay-academic-website/` and `SITE_ORIGIN=https://cantayus.github.io`. Domain and DNS configuration are separate from editing content. Verify the deployment and resulting public pages before describing a new version or domain as live.
 
 GitHub Pages serves static files. This version has no Worker, R2 database, content-write API or MCP endpoint. Git commits and Pages deployments publish changes to the site's content.
 

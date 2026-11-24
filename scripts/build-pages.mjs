@@ -3,9 +3,9 @@ import path from 'node:path';
 import {build} from 'vite';
 import {pathToFileURL} from 'node:url';
 
-const base='/' + (process.env.SITE_BASE_PATH||'/cantay-academic-website/').split('/').filter(Boolean).join('/') + '/';
+const base='/' + (process.env.SITE_BASE_PATH||'/').split('/').filter(Boolean).join('/') + '/';
 const basePath=base==='//'?'/':base;
-const origin=new URL(process.env.SITE_ORIGIN||'https://cantayus.github.io').origin;
+const origin=new URL(process.env.SITE_ORIGIN||'https://www.cantaycaliskan.net').origin;
 const siteUrl=new URL(basePath,origin).href;
 const research=JSON.parse(await fs.readFile('content/research.json','utf8'));
 const description='Cantay Caliskan studies politics, places, and human behavior using AI, computer vision, and network analysis. Research, teaching, software, and educational games.';
@@ -30,6 +30,7 @@ await build({build:{ssr:'src/render.tsx',outDir:'.prerender',emptyOutDir:true}})
  for(const entry of routes){const file=path.join('dist',entry.url,'index.html');await fs.mkdir(path.dirname(file),{recursive:true});await fs.writeFile(file,await page(entry));}
  const aliases=[];
  for(const p of research)for(const old of p.legacyIds||[]){const target=new URL(`research/${p.id}/`,siteUrl).href;const file=`dist/research/${old}/index.html`;await fs.mkdir(path.dirname(file),{recursive:true});await fs.writeFile(file,`<!doctype html><html lang="en"><head><meta charset="utf-8"/><title>${escape(p.title)} | Cantay Caliskan</title><link rel="canonical" href="${escape(target)}"/><meta name="robots" content="noindex,follow"/><meta http-equiv="refresh" content="0;url=${escape(target)}"/><script>location.replace(${json(target)}+location.search+location.hash)</script></head><body><a href="${escape(target)}">${escape(p.title)}</a></body></html>`);aliases.push({from:old,to:p.id});}
+ for(const [from,to] of [['book-project','research/algorithmic-emotions-book/'],['curriculum-vitae','cv/']]){const target=new URL(to,siteUrl).href;const file=`dist/${from}/index.html`;await fs.mkdir(path.dirname(file),{recursive:true});await fs.writeFile(file,`<!doctype html><html lang="en"><head><meta charset="utf-8"/><title>Cantay Caliskan</title><link rel="canonical" href="${escape(target)}"/><meta name="robots" content="noindex,follow"/><meta http-equiv="refresh" content="0;url=${escape(target)}"/><script>location.replace(${json(target)}+location.search+location.hash)</script></head><body><a href="${escape(target)}">Continue to Cantay Caliskan’s website</a></body></html>`);aliases.push({from,to});}
  await fs.writeFile('dist/404.html',await page({route:'not-found',title:'Page not found',url:'404.html'},{noindex:true}));
  await fs.writeFile('dist/.nojekyll','');
  await fs.writeFile('dist/robots.txt',`User-agent: *\nAllow: /\nSitemap: ${siteUrl}sitemap.xml\n`);
