@@ -5,7 +5,9 @@ import {pathToFileURL} from 'node:url';
 
 const base='/' + (process.env.SITE_BASE_PATH||'/').split('/').filter(Boolean).join('/') + '/';
 const basePath=base==='//'?'/':base;
-const origin=new URL(process.env.SITE_ORIGIN||'https://www.cantaycaliskan.net').origin;
+const canonicalOrigin=new URL(process.env.SITE_ORIGIN||'https://www.cantaycaliskan.net');
+canonicalOrigin.protocol='https:';
+const origin=canonicalOrigin.origin;
 const siteUrl=new URL(basePath,origin).href;
 const research=JSON.parse(await fs.readFile('content/research.json','utf8'));
 const description='Cantay Caliskan studies politics, places, and human behavior using AI, computer vision, and network analysis. Research, teaching, software, and educational games.';
