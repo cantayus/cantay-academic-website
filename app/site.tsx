@@ -34,9 +34,127 @@ function PaperPage({paper:p,papers,open}:{paper:Paper;papers:Paper[];open:(f:Res
 function Games({profile}:{profile:Record<string,any>}){return <main id="main-content" className="page-width games-page"><div className="page-heading"><h1>Games</h1><p>Games I created to make computational social science, data science, and AI something you can explore.</p></div><GameCard kind="society" profile={profile}/><GameCard kind="variable" profile={profile}/></main>}
 function Teaching({profile}:{profile:Record<string,any>}){const courses=profile.teaching?.courses||profile.courses||['Introduction to Statistical Machine Learning','Data Mining','Data Science Practicum','Introduction to Data Analytics','Data Visualization','Social, Ethical, and Cultural Impacts of Big Data'];const metrics=profile.metrics||{};return <main id="main-content"><div className="page-width"><div className="page-heading teaching-heading"><h1>Teaching</h1><p>{writing(profile).teachingIntro}</p></div><dl className="teaching-totals" aria-label="Teaching and research supervision"><div><dt>Course sections taught</dt><dd>{metrics.teachingSections?.toLocaleString('en-US')}</dd></div><div><dt>Students taught</dt><dd>{metrics.studentsTaughtLabel}</dd></div><div><dt>Research students mentored</dt><dd>{metrics.researchStudentsLabel}</dd></div></dl><SicssFeature profile={profile}/><div className="teaching-layout"><div className="course-list"><span className="eyebrow">Teaching portfolio</span>{courses.map((c:any,i:number)=><div key={i}><h3>{typeof c==='string'?c:c.title||c.name}</h3>{typeof c==='object'&&c.institution&&<p>{c.institution}</p>}</div>)}</div></div><section className="mentorship-block"><h2>Research supervision</h2><p>{writing(profile).teachingNarrative[0]}</p></section><section className="section"><div className="section-heading"><div><h2>Educational games</h2></div><a className="text-link" href={withBasePath("/games")}>Explore my educational games</a></div><div className="games-grid"><GameCard kind="society" compact profile={profile}/><GameCard kind="variable" compact profile={profile}/></div></section></div></main>}
 function ProfessionalTimeline({title,eyebrow,records}:{title:string;eyebrow:string;records:any[]}){if(!records?.length)return null;return <section className="professional-timeline"><div><span className="eyebrow">{eyebrow}</span><h2>{title}</h2></div><div>{records.map((r,i)=><article key={r.id||i}><div className="timeline-date">{r.date||r.years||r.year}{r.upcoming&&<span>Upcoming</span>}</div><div><h3>{r.title}</h3><p>{r.institution}</p>{r.amount&&<p className="timeline-amount">{r.amount}</p>}</div></article>)}</div></section>}
-function About({profile}:{profile:Record<string,any>}){const photo=profile.headshot?.src||profile.headshot||profile.photo?.src||profile.photo||'/people/cantay-caliskan.jpg';const books=profile.books||[{title:'Algorithmic Understanding of Emotions: Social Theories and Computational Applications'},{title:'The Playable Past: Fidelity, History, and Video Games'}];const software=profile.software||[];const education=profile.education||[];return <main id="main-content" className="page-width about-page"><div className="about-opening"><div className="page-heading"><h1>About me</h1><p>I’m Cantay Caliskan, {profile.role} at {profile.university}.</p><p className="about-body">{writing(profile).aboutIntro}</p><div className="about-links"><a className="text-link" href={withBasePath(`mailto:${profile.email}`)}>Get in touch</a><a className="text-link" href={withBasePath("/cv")}>Read my CV</a></div></div><figure className="portrait"><img {...adaptiveImage(String(photo))} sizes="(max-width:600px) 290px, (max-width:850px) 32vw, 400px" alt="Cantay Caliskan"/><figcaption>{profile.institution}</figcaption></figure></div><section className="about-background"><span className="eyebrow">Background</span><div><h2>Education<br/>& background.</h2><p>I hold a PhD in Political Science from Boston University and an MBA from the University of Rochester’s Simon Business School. My earlier studies span mathematics, economics, international and global studies, and international relations.</p><p>Before Rochester, I taught data analytics at Denison University and mathematics and computer science at Ohio Wesleyan University.</p>{!!education.length&&<div className="education-list">{education.map((e:any,i:number)=><div key={i}><strong>{e.degree||e.title||e.qualification}</strong><span>{e.institution||e.school}</span><small>{e.years||e.year||e.dates}</small></div>)}</div>}</div></section><section className="book-section"><span className="eyebrow">Book projects</span><div className="books-grid">{books.map((b:any,i:number)=><article key={i} className={`book-project book-${i}`}><div className="book-spine" aria-hidden="true"/><span className="eyebrow">Book project</span><h2>{typeof b==='string'?b:b.title}</h2>{b.description&&<p>{b.description}</p>}</article>)}</div></section><section className="about-software-link"><h2>Research software</h2><p>I develop Python tools for working with visual data, speech, video, and the web.</p><a className="text-link" href={withBasePath("/software")}>Explore my software and Playable Past</a></section><ProfessionalTimeline title="Invited talks" eyebrow="Recent & upcoming" records={profile.invitedTalks}/><div className="contact-block"><h2>Get in touch.</h2><a href={withBasePath(`mailto:${profile.email}`)}>{profile.email}</a><div><a href="https://www.linkedin.com/in/cantayus/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5051418" target="_blank" rel="noreferrer">SSRN</a></div></div></main>}
+function About({profile}:{profile:Record<string,any>}){const photo=profile.headshot?.src||profile.headshot||profile.photo?.src||profile.photo||'/people/cantay-caliskan.jpg';const books=profile.books||[{title:'Algorithmic Understanding of Emotions: Social Theories and Computational Applications'},{title:'The Playable Past: Fidelity, History, and Video Games'}];const software=profile.software||[];const education=profile.education||[];return <main id="main-content" className="page-width about-page"><div className="about-opening"><div className="page-heading"><h1>About me</h1><p>I’m Cantay Caliskan, {profile.role} at {profile.university}.</p><p className="about-body">{writing(profile).aboutIntro}</p><div className="about-links"><a className="text-link" href={withBasePath(`mailto:${profile.email}`)}>Get in touch</a><a className="text-link" href={withBasePath("/cv")}>Read my CV</a></div></div><figure className="portrait"><img {...adaptiveImage(String(photo))} sizes="(max-width:600px) 290px, (max-width:850px) 32vw, 400px" alt="Cantay Caliskan"/><figcaption>{profile.institution}</figcaption></figure></div><section className="about-background"><span className="eyebrow">Background</span><div><h2>Education<br/>& background.</h2><p>I hold a PhD in Political Science from Boston University and an MBA from the University of Rochester’s Simon Business School. My earlier studies span mathematics, economics, international and global studies, and international relations.</p><p>Before Rochester, I taught data analytics at Denison University and mathematics and computer science at Ohio Wesleyan University.</p>{!!education.length&&<div className="education-list">{education.map((e:any,i:number)=><div key={i}><strong>{e.degree||e.title||e.qualification}</strong><span>{e.institution||e.school}</span><small>{e.years||e.year||e.dates}</small></div>)}</div>}</div></section><section className="book-section"><span className="eyebrow">Book projects</span><div className="books-grid">{books.map((b:any,i:number)=><article key={i} className={`book-project book-${i}`}><div className="book-spine" aria-hidden="true"/><span className="eyebrow">Book project</span><h2>{typeof b==='string'?b:b.title}</h2>{b.description&&<p>{b.description}</p>}</article>)}</div></section><section className="about-software-link"><h2>Research software</h2><p>I develop Python tools for working with visual data, speech, video, and the web.</p><a className="text-link" href={withBasePath("/software")}>Explore my software and Playable Past</a></section><ProfessionalTimeline title="Invited talks" eyebrow="Recent & upcoming" records={profile.invitedTalks}/><div className="contact-block"><h2>Get in touch.</h2><a href={withBasePath(`mailto:${profile.email}`)}>{profile.email}</a><div><a href="https://www.linkedin.com/in/cantayus/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5051418" target="_blank" rel="noreferrer">SSRN</a><a href={withBasePath("/privacy")}>Privacy &amp; analytics</a></div></div></main>}
 function CV({profile}:{profile:Record<string,any>}){return <main id="main-content" className="page-width cv-page"><div className="page-heading"><h1>Curriculum vitae</h1></div><div className="cv-preview"><iframe src={withBasePath(profile.resume?.previewUrl||"https://drive.google.com/file/d/1BrqPNXyQPgYKTzKbj5nD-EmhQlvbMIeq/preview")} title="Cantay Caliskan’s curriculum vitae" allow="fullscreen"/></div></main>}
 function ResearchWithMe({profile}:{profile:Record<string,any>}){const[show,setShow]=useState(false);return <main id="main-content" className="page-width application-page"><div className="page-heading"><h1>Do research with Cantay</h1><p>Interested in computational social science, AI, computer vision, or networks? Tell me a little about yourself and the questions you’d like to explore.</p></div><div className="application-intro"><div><h2>How to<br/>get involved.</h2><p>If you are interested in a project in computational social science or AI, use the form to introduce your interests and experience.</p><a className="text-link" href={withBasePath("/research")}>Browse current research</a></div><div className="application-panel"><span className="eyebrow">Research interest form</span><h2>Research application.</h2><p>Use my research application to share your interests and experience.</p><a className="button button-green" href={withBasePath(FORM_URL)} target="_blank" rel="noreferrer" onClick={()=>track('research_apply_open')}>Open the application</a><button className="text-link" onClick={()=>{setShow(!show);track('research_apply_embed_open');}}>{show?'Hide embedded form':'Fill in the form on this page'}</button></div></div>{show&&<div className="application-embed"><iframe src={withBasePath(`${FORM_URL}?embedded=true`)} title="Research application for Cantay Caliskan" height="3400"/></div>}<p className="application-contact">For other inquiries, email <a href={withBasePath(`mailto:${profile.email}`)}>{profile.email}</a>.</p></main>}
-function Privacy({profile}:{profile:Record<string,any>}){const active=Boolean(siteConfig.measurementId);return <main id="main-content" className="page-width privacy-page"><div className="page-heading"><h1>Privacy & analytics</h1></div><div className="prose"><h2>Website preferences</h2><p>This website remembers your light or dark theme preference in your browser. Analytics preferences, when available, are also stored on your device.</p><h2>Google Analytics</h2><p>{active?'Google Analytics is optional. It loads only after you opt in. Reporting may include pages visited, engagement, referral sources, approximate geographic location, and clicks on research and game links.':'Analytics is currently inactive. If it is connected in the future, an opt-in choice will appear before analytics loads.'}</p><p>Analytics does not provide me with visitors’ names. Names, email addresses, and research application answers are not sent to Analytics.</p><>{active&&<button className="button button-outline" onClick={()=>{localStorage.removeItem('cantay-analytics');location.reload();}}>Change analytics preference</button>}</><h2>External services</h2><p>Research papers, games, Google Drive, and Google Forms may open on external services. The CV page loads a Google Drive preview. The research application contacts Google when you choose to load it. Those services have their own privacy practices.</p><h2>Contact</h2><p>Questions about this website can be sent to <a href={withBasePath(`mailto:${profile.email}`)}>{profile.email}</a>.</p></div></main>}
-function Analytics(){const[id,setId]=useState<string|null>(null);const[banner,setBanner]=useState(false);function enable(measurementId:string){if(document.getElementById('analytics-script'))return;const w=window as any;w.dataLayer=w.dataLayer||[];w.gtag=function(){w.dataLayer.push(arguments);};w.gtag('js',new Date());w.gtag('config',measurementId,{page_location:location.origin+location.pathname,page_title:document.title,allow_google_signals:false,allow_ad_personalization_signals:false});const s=document.createElement('script');s.id='analytics-script';s.async=true;s.src=`https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`;document.head.appendChild(s);}useEffect(()=>{const measurementId:string|null=siteConfig.measurementId;if(measurementId){setId(measurementId);setBanner(!localStorage.getItem('cantay-analytics'));if(localStorage.getItem('cantay-analytics')==='accepted')enable(measurementId);}const reset=()=>setBanner(true);addEventListener('analytics-preferences',reset);return()=>removeEventListener('analytics-preferences',reset);},[]);if(!id||!banner)return null;return <div className="consent-banner" role="region" aria-label="Analytics preferences"><div><strong>Optional website analytics</strong><p>Optional analytics shows how visitors use this site, including approximate locations. <a href={withBasePath("/privacy")}>Privacy details</a></p></div><button className="button button-outline" onClick={()=>{localStorage.setItem('cantay-analytics','declined');setBanner(false);}}>Decline</button><button className="button button-green" onClick={()=>{localStorage.setItem('cantay-analytics','accepted');enable(id);setBanner(false);}}>Allow analytics</button></div>}
+const analyticsPreferenceKey = 'cantay-analytics';
+const analyticsMeasurementId: string | null = siteConfig.measurementId;
+
+type AnalyticsWindow = Window & {
+  dataLayer?: IArguments[];
+  gtag?: (...args: unknown[]) => void;
+} & Partial<Record<`ga-disable-${string}`, boolean>>;
+
+function readAnalyticsPreference(): boolean | null {
+  try {
+    return localStorage.getItem(analyticsPreferenceKey) !== 'declined';
+  } catch {
+    return null;
+  }
+}
+
+function applyAnalyticsPreference(measurementId: string, enabled: boolean) {
+  const analyticsWindow = window as AnalyticsWindow;
+  analyticsWindow[`ga-disable-${measurementId}`] = !enabled;
+  if (!enabled || document.getElementById('analytics-script')) return;
+
+  const dataLayer = analyticsWindow.dataLayer ??= [];
+  const send: (...args: unknown[]) => void = function () {
+    dataLayer.push(arguments);
+  };
+  analyticsWindow.gtag = send;
+  send('consent', 'default', {
+    analytics_storage: 'granted',
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+  });
+  send('js', new Date());
+  send('config', measurementId, {
+    page_location: location.origin + location.pathname,
+    page_title: document.title,
+    allow_google_signals: false,
+    allow_ad_personalization_signals: false,
+  });
+
+  const script = document.createElement('script');
+  script.id = 'analytics-script';
+  script.async = true;
+  script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`;
+  document.head.appendChild(script);
+}
+
+function AnalyticsPreference({ measurementId }: { measurementId: string }) {
+  const [enabled, setEnabled] = useState<boolean | null>(null);
+  const [saveError, setSaveError] = useState(false);
+
+  useEffect(() => {
+    setEnabled(readAnalyticsPreference());
+    function syncPreference(event: StorageEvent) {
+      if (event.key === analyticsPreferenceKey || event.key === null) {
+        setEnabled(readAnalyticsPreference());
+        setSaveError(false);
+      }
+    }
+    window.addEventListener('storage', syncPreference);
+    return () => window.removeEventListener('storage', syncPreference);
+  }, []);
+
+  function updatePreference(nextEnabled: boolean) {
+    try {
+      localStorage.setItem(analyticsPreferenceKey, nextEnabled ? 'accepted' : 'declined');
+    } catch {
+      setSaveError(true);
+      return;
+    }
+    applyAnalyticsPreference(measurementId, nextEnabled);
+    setEnabled(nextEnabled);
+    setSaveError(false);
+  }
+
+  return <>
+    <p role="status">{enabled === null ? '' : enabled ? 'Analytics is on for this browser.' : 'Analytics is off for this browser.'}</p>
+    <button className="button button-outline" disabled={enabled === null} onClick={() => updatePreference(!enabled)}>
+      {enabled === false ? 'Turn on analytics' : 'Turn off analytics'}
+    </button>
+    {saveError && <p role="alert">Your browser couldn’t save this preference.</p>}
+  </>;
+}
+
+function Privacy({ profile }: { profile: Record<string, any> }) {
+  return <main id="main-content" className="page-width privacy-page">
+    <div className="page-heading"><h1>Privacy &amp; analytics</h1></div>
+    <div className="prose">
+      <h2>Website preferences</h2>
+      <p>This website remembers your light or dark theme preference and your analytics preference in your browser.</p>
+      <h2>Google Analytics</h2>
+      {analyticsMeasurementId ? <>
+        <p>This site uses Google Analytics by default. Analytics uses cookies to report pages visited, engagement, referral sources, approximate geographic location, and clicks on research and game links. See <a href="https://policies.google.com/technologies/partner-sites">how Google uses data from sites that use its services</a>.</p>
+        <p>Names, email addresses, and research application answers are not sent to Analytics.</p>
+        <AnalyticsPreference measurementId={analyticsMeasurementId} />
+      </> : <p>Analytics is currently inactive.</p>}
+      <h2>External services</h2>
+      <p>Research papers, games, Google Drive, and Google Forms may open on external services. The CV page loads a Google Drive preview. The research application contacts Google when you choose to load it. Those services have their own privacy practices.</p>
+      <h2>Contact</h2>
+      <p>Questions about this website can be sent to <a href={withBasePath(`mailto:${profile.email}`)}>{profile.email}</a>.</p>
+    </div>
+  </main>;
+}
+
+function Analytics() {
+  useEffect(() => {
+    const measurementId = analyticsMeasurementId;
+    if (!measurementId) return;
+
+    applyAnalyticsPreference(measurementId, readAnalyticsPreference() === true);
+    const syncPreference = (event: StorageEvent) => {
+      if (event.key === analyticsPreferenceKey || event.key === null) {
+        applyAnalyticsPreference(measurementId, readAnalyticsPreference() === true);
+      }
+    };
+    window.addEventListener('storage', syncPreference);
+    return () => window.removeEventListener('storage', syncPreference);
+  }, []);
+  return null;
+}
 export default function Site({route='home',slug,data}:{route?:string;slug?:string;data:SiteData}){const[figure,setFigure]=useState<ResearchFigure|null>(null);const p=slug?data.research.find(p=>p.id===slug):undefined;return <><a className="skip-link" href="#main-content">Skip to content</a><Header route={route}/>{route==='home'?<Home data={data} open={setFigure}/>:route==='research'&&slug&&p?<PaperPage paper={p} papers={data.research} open={setFigure}/>:route==='research'?<Research data={data} open={setFigure}/>:route==='software'?<SoftwarePage profile={data.profile} open={setFigure}/>:route==='games'?<Games profile={data.profile}/>:route==='teaching'?<Teaching profile={data.profile}/>:route==='about'?<About profile={data.profile}/>:route==='cv'?<CV profile={data.profile}/>:route==='research-with-me'?<ResearchWithMe profile={data.profile}/>:route==='privacy'?<Privacy profile={data.profile}/>:<main id="main-content" className="page-width page-heading"><h1>Page not found.</h1><a href={withBasePath("/research")}>Explore the research index</a></main>}<Footer profile={data.profile}/><FigureDialog figure={figure} close={()=>setFigure(null)}/><Analytics/></>}

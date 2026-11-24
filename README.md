@@ -53,7 +53,7 @@ Changes to biography, publications and other website facts require a content com
 
 ## Analytics and assets
 
-Analytics is inactive while `content/site-config.json` has a null `measurementId`. A GA4 measurement ID is public configuration, not a credential. If enabled, preserve the existing opt-in behavior and verify collection for the final domain.
+Analytics is inactive while `content/site-config.json` has a null `measurementId`. A GA4 measurement ID is public configuration, not a credential. When configured, Analytics starts automatically unless the visitor has turned it off. The About page links to the Privacy & analytics controls. Verify automatic loading and opt-out on the final domain.
 
 Preserve figure captions, source links, image credits, and font/vendor licenses. The repository does not grant a blanket reuse license for the author's papers, portrait, or third-party research imagery. Verification notes are in `docs/verification` and `docs/research-review`.
 
