@@ -42,8 +42,8 @@ Preserve `profile.editorialPreferences` during every edit and automatic update:
 - Do not add grants or academic-service website sections; they remain in the CV.
 - Use plain, upright titles in one ink color. Do not mix italic and regular text within a title, add a decorative period after the name, or add promotional slogans/subtitles.
 - Keep the homepage introduction focused on academic background, current role, portrait and SICSS, with research below.
-- Keep Research, Software, Games, Teaching, About, CV and Research opportunities visible in the top navigation on desktop and mobile. Narrow-screen links wrap; do not hide them in a dropdown or hamburger menu.
-- Keep a prominent **Explore research opportunities** link on the homepage and Research page. It leads to `/research-with-me/`, which retains the existing research-interest form.
+- Keep Research, Software, Games, Teaching, About, CV and Do research with Cantay visible in the top navigation on desktop and mobile. Narrow-screen links wrap; do not hide them in a dropdown or hamburger menu.
+- Keep a prominent **Do research with Cantay** link on the homepage and Research page. It leads to `/research-with-me/`, which retains the existing research-interest form.
 - Do not display Data Science Capstone in the teaching portfolio. Do not restore the paragraphs about permitting generative AI on assignments or the profession-description bias exercise. Omit the detailed narrative about unfinished projects, paper-presentation admission steps and continued contact after a course.
 
 Teaching totals are editable under `profile.metrics`. The supplied teaching statement supports **41 course sections**, including five SICSS offerings, and **approximately 1,760 students**, excluding planned 2027 offerings. The CV supports **75+ research students in total**, not 75 alumni plus the current group. Lifetime totals include historical Capstone sections even though the course is omitted from the displayed portfolio. These are sections/offerings, not a count of individual class meetings.

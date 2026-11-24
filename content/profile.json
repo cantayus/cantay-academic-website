@@ -661,8 +661,8 @@
     "cvPresentation": "Display the Google Drive CV directly within the CV page. Do not add a CV download link or show an update date.",
     "teachingPresentation": "Do not display Data Science Capstone or the paragraphs about allowing generative AI on assignments and the profession-description bias exercise. Present the broader teaching approach and verified lifetime teaching and research-supervision totals. Course-section totals include historical teaching, even when a course is omitted from the portfolio.",
     "headingStyle": "Use plain, upright titles in a single color. Do not mix italic and regular text within a title or add promotional subtitles such as From class to research.",
-    "navigation": "Keep Research, Software, Games, Teaching, About, CV, and Research opportunities visibly accessible at the top on desktop and mobile. Do not hide the primary navigation in a dropdown or hamburger menu.",
-    "researchOpportunities": "Show a prominent Explore research opportunities link on both the homepage and Research page, linking to the standalone Research opportunities page at /research-with-me with the existing research-interest form.",
+    "navigation": "Keep Research, Software, Games, Teaching, About, CV, and Do research with Cantay visibly accessible at the top on desktop and mobile. Do not hide the primary navigation in a dropdown or hamburger menu.",
+    "researchOpportunities": "Show a prominent Do research with Cantay link on both the homepage and Research page, linking to the standalone Do research with Cantay page at /research-with-me with the existing research-interest form.",
     "softwarePresentation": "Keep a prominent Software section and highlight PlayablePast.com. Use verified public repository examples or original paper figures, preserve image credits, and distinguish published Python packages from research implementations. Do not use promotional composite illustrations with unclear provenance. Do not expose private repository links or invent package-install commands."
   },
   "featuredResearch": [

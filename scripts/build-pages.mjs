@@ -11,7 +11,7 @@ const origin=canonicalOrigin.origin;
 const siteUrl=new URL(basePath,origin).href;
 const research=JSON.parse(await fs.readFile('content/research.json','utf8'));
 const description='Cantay Caliskan studies politics, places, and human behavior using AI, computer vision, and network analysis. Research, teaching, software, and educational games.';
-const names={home:'Cantay Caliskan',research:'Research',software:'Software',games:'Games',teaching:'Teaching',about:'About',cv:'Curriculum vitae','research-with-me':'Research opportunities',privacy:'Privacy & analytics'};
+const names={home:'Cantay Caliskan',research:'Research',software:'Software',games:'Games',teaching:'Teaching',about:'About',cv:'Curriculum vitae','research-with-me':'Do research with Cantay',privacy:'Privacy & analytics'};
 const routes=Object.entries(names).map(([route,title])=>({route,title,url:route==='home'?'':`${route}/`}));
 for(const paper of research)routes.push({route:'research',slug:paper.id,title:paper.title,url:`research/${paper.id}/`,description:paper.summary,paper});
 const escape=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
