@@ -13,8 +13,8 @@
     "status": "Working paper",
     "venue": null,
     "topics": [
-      "Environment",
-      "Methods"
+      "Environmental studies",
+      "Research methods"
     ],
     "methods": [
       "Computer vision",
@@ -60,8 +60,8 @@
     "status": "Working paper",
     "venue": null,
     "topics": [
-      "AI & society",
-      "Methods"
+      "Artificial intelligence",
+      "Research methods"
     ],
     "methods": [
       "Large language models",
@@ -105,8 +105,8 @@
     "status": "Working paper",
     "venue": null,
     "topics": [
-      "Politics & place",
-      "Methods"
+      "Political science",
+      "Research methods"
     ],
     "methods": [
       "Spatial analysis",
@@ -151,9 +151,9 @@
     "status": "Working paper",
     "venue": null,
     "topics": [
-      "Politics & place",
-      "Networks & behavior",
-      "Methods"
+      "Political science",
+      "Social behavior",
+      "Research methods"
     ],
     "methods": [
       "Audio analysis",
@@ -198,8 +198,8 @@
     "status": "Forthcoming",
     "venue": "Proceedings of the International Conference on Large Language Models (LLM 2026), Springer Nature",
     "topics": [
-      "AI & society",
-      "Methods"
+      "Artificial intelligence",
+      "Research methods"
     ],
     "methods": [
       "Multimodal language models",
@@ -273,8 +273,8 @@
     "status": "Forthcoming",
     "venue": "Proceedings of the International Conference on the AI Revolution: Research, Ethics, and Society (AIR-RES 2026), Springer Nature",
     "topics": [
-      "AI & society",
-      "Methods"
+      "Artificial intelligence",
+      "Research methods"
     ],
     "methods": [
       "Large language models"
@@ -318,7 +318,7 @@
     "status": "Forthcoming",
     "venue": "Political Science Research and Methods",
     "topics": [
-      "Methods"
+      "Research methods"
     ],
     "methods": [
       "Outlier detection",
@@ -393,9 +393,9 @@
     "status": "Published",
     "venue": "Journal of Political Institutions and Political Economy",
     "topics": [
-      "AI & society",
-      "Politics & place",
-      "Methods"
+      "Artificial intelligence",
+      "Political science",
+      "Research methods"
     ],
     "methods": [
       "Large language models",
@@ -490,9 +490,9 @@
     "status": "Published",
     "venue": "Scientific Reports",
     "topics": [
-      "Politics & place",
-      "Networks & behavior",
-      "Methods"
+      "Political science",
+      "Social behavior",
+      "Research methods"
     ],
     "methods": [
       "Computer vision",
@@ -590,8 +590,8 @@
     "status": "Published",
     "venue": "Journal of Computational and Graphical Statistics",
     "topics": [
-      "Networks & behavior",
-      "Methods"
+      "Social behavior",
+      "Research methods"
     ],
     "methods": [
       "Dynamic network models",
@@ -639,8 +639,8 @@
     "status": "Published",
     "venue": "Bioacoustics",
     "topics": [
-      "Networks & behavior",
-      "Methods"
+      "Social behavior",
+      "Research methods"
     ],
     "methods": [
       "Acoustic analysis",
@@ -689,8 +689,8 @@
     "status": "Published",
     "venue": "Journal of the Royal Statistical Society: Series A",
     "topics": [
-      "Networks & behavior",
-      "Methods"
+      "Social behavior",
+      "Research methods"
     ],
     "methods": [
       "Latent space models",
@@ -739,9 +739,9 @@
     "status": "Published",
     "venue": "Journal of Computational Social Science",
     "topics": [
-      "AI & society",
-      "Networks & behavior",
-      "Methods"
+      "Artificial intelligence",
+      "Social behavior",
+      "Research methods"
     ],
     "methods": [
       "Text similarity",
@@ -836,9 +836,9 @@
     "status": "Published",
     "venue": "Journal of Computational Social Science",
     "topics": [
-      "Networks & behavior",
-      "AI & society",
-      "Methods"
+      "Social behavior",
+      "Artificial intelligence",
+      "Research methods"
     ],
     "methods": [
       "Natural language processing",
@@ -921,9 +921,9 @@
     "status": "Published",
     "venue": "Politics & Policy",
     "topics": [
-      "Environment",
-      "Networks & behavior",
-      "Politics & place"
+      "Environmental studies",
+      "Social behavior",
+      "Political science"
     ],
     "methods": [
       "Social network analysis",
@@ -990,9 +990,9 @@
     "status": "Working paper",
     "venue": null,
     "topics": [
-      "Politics & place",
-      "AI & society",
-      "Methods"
+      "Political science",
+      "Artificial intelligence",
+      "Research methods"
     ],
     "methods": [
       "Computer vision",
@@ -1189,9 +1189,9 @@
     "status": "Working paper",
     "venue": null,
     "topics": [
-      "Politics & place",
-      "AI & society",
-      "Methods"
+      "Political science",
+      "Artificial intelligence",
+      "Research methods"
     ],
     "methods": [
       "Multimodal video analysis",
@@ -1361,9 +1361,9 @@
     "status": "Working paper",
     "venue": null,
     "topics": [
-      "Games & history",
-      "AI & society",
-      "Methods"
+      "Game studies",
+      "Artificial intelligence",
+      "Research methods"
     ],
     "methods": [
       "Computer vision",
@@ -1537,9 +1537,9 @@
     "status": "Working paper",
     "venue": null,
     "topics": [
-      "Networks & behavior",
-      "Politics & place",
-      "Methods"
+      "Social behavior",
+      "Political science",
+      "Research methods"
     ],
     "methods": [
       "Latent space models",
@@ -1622,9 +1622,9 @@
     "status": "Working paper",
     "venue": null,
     "topics": [
-      "Politics & place",
-      "Networks & behavior",
-      "Methods"
+      "Political science",
+      "Social behavior",
+      "Research methods"
     ],
     "methods": [
       "Computer vision",
@@ -1707,8 +1707,8 @@
     "status": "Working paper",
     "venue": null,
     "topics": [
-      "Politics & place",
-      "Methods"
+      "Political science",
+      "Research methods"
     ],
     "methods": [
       "Street-level imagery",
@@ -1755,8 +1755,8 @@
     "status": "Working paper",
     "venue": null,
     "topics": [
-      "AI & society",
-      "Methods"
+      "Artificial intelligence",
+      "Research methods"
     ],
     "methods": [
       "Large language models",
@@ -1834,9 +1834,9 @@
     "status": "Working paper",
     "venue": null,
     "topics": [
-      "AI & society",
-      "Politics & place",
-      "Methods"
+      "Artificial intelligence",
+      "Political science",
+      "Research methods"
     ],
     "methods": [
       "Computer vision",
@@ -1884,8 +1884,8 @@
     "status": "Working paper",
     "venue": null,
     "topics": [
-      "Environment",
-      "Methods"
+      "Environmental studies",
+      "Research methods"
     ],
     "methods": [
       "Panoptic segmentation",
@@ -1962,9 +1962,9 @@
     "status": "Working paper",
     "venue": null,
     "topics": [
-      "Politics & place",
-      "AI & society",
-      "Methods"
+      "Political science",
+      "Artificial intelligence",
+      "Research methods"
     ],
     "methods": [
       "Computer vision",
@@ -2050,9 +2050,9 @@
     "status": "Working paper",
     "venue": null,
     "topics": [
-      "AI & society",
-      "Politics & place",
-      "Methods"
+      "Artificial intelligence",
+      "Political science",
+      "Research methods"
     ],
     "methods": [
       "AI image generation",
@@ -2159,8 +2159,8 @@
     "status": "Working paper",
     "venue": null,
     "topics": [
-      "Politics & place",
-      "Methods"
+      "Political science",
+      "Research methods"
     ],
     "methods": [
       "Computer vision",
@@ -2209,8 +2209,8 @@
     "status": "Book chapter",
     "venue": "Elgar Encyclopedia of Political Communication",
     "topics": [
-      "Politics & place",
-      "Networks & behavior"
+      "Political science",
+      "Social behavior"
     ],
     "methods": [],
     "summary": "An encyclopedia contribution on elite networks in political communication.",
@@ -2238,8 +2238,8 @@
     "status": "Book chapter",
     "venue": "Financial Data Analytics: Theory and Applications, Springer",
     "topics": [
-      "Networks & behavior",
-      "Methods"
+      "Social behavior",
+      "Research methods"
     ],
     "methods": [
       "Agent-based modeling",
@@ -2278,7 +2278,7 @@
     "status": "Book chapter",
     "venue": "The Handbook of Global Companies, Wiley-Blackwell",
     "topics": [
-      "Politics & place"
+      "Political science"
     ],
     "methods": [],
     "summary": "A coauthored chapter on global companies and emerging-market countries in John Mikler’s edited handbook.",
@@ -2312,8 +2312,8 @@
     "status": "Book review",
     "venue": "Perspectives on Politics",
     "topics": [
-      "Politics & place",
-      "AI & society"
+      "Political science",
+      "Artificial intelligence"
     ],
     "methods": [],
     "summary": "A review of the Persily and Tucker edited volume on social media and democracy. It highlights the book’s structured synthesis of research and concrete proposals for regulation, while identifying the economic effects of those proposals as a question for further work.",
@@ -2353,7 +2353,7 @@
     "status": "Work in progress",
     "venue": null,
     "topics": [
-      "Politics & place"
+      "Political science"
     ],
     "methods": [],
     "summary": "A project on the visibility of state and party power in everyday public space.",
@@ -2382,8 +2382,8 @@
     "status": "Work in progress",
     "venue": null,
     "topics": [
-      "Politics & place",
-      "Methods"
+      "Political science",
+      "Research methods"
     ],
     "methods": [],
     "summary": "A project assembling a corpus of filmed diplomatic meetings involving American presidents.",
@@ -2412,8 +2412,8 @@
     "status": "Work in progress",
     "venue": null,
     "topics": [
-      "Politics & place",
-      "Networks & behavior"
+      "Political science",
+      "Social behavior"
     ],
     "methods": [],
     "summary": "A project examining emotional displays and bilateral relations using filmed presidential meetings.",
@@ -2442,9 +2442,9 @@
     "status": "Work in progress",
     "venue": null,
     "topics": [
-      "Games & history",
-      "AI & society",
-      "Methods"
+      "Game studies",
+      "Artificial intelligence",
+      "Research methods"
     ],
     "methods": [
       "Vision-language models"
@@ -2475,9 +2475,9 @@
     "status": "Work in progress",
     "venue": null,
     "topics": [
-      "Politics & place",
-      "Networks & behavior",
-      "Methods"
+      "Political science",
+      "Social behavior",
+      "Research methods"
     ],
     "methods": [],
     "summary": "A project examining social distance around visible Muslim identity in Europe.",
@@ -2509,8 +2509,8 @@
     "status": "Work in progress",
     "venue": null,
     "topics": [
-      "Networks & behavior",
-      "Politics & place"
+      "Social behavior",
+      "Political science"
     ],
     "methods": [],
     "summary": "A project studying strategic alignment and social-media behavior among members of the U.S. Congress.",
@@ -2542,9 +2542,9 @@
     "status": "Work in progress",
     "venue": null,
     "topics": [
-      "Politics & place",
-      "AI & society",
-      "Methods"
+      "Political science",
+      "Artificial intelligence",
+      "Research methods"
     ],
     "methods": [],
     "summary": "A project using visual saliency to study the politics of tourism.",
@@ -2575,8 +2575,8 @@
     "status": "Work in progress",
     "venue": null,
     "topics": [
-      "Games & history",
-      "AI & society"
+      "Game studies",
+      "Artificial intelligence"
     ],
     "methods": [],
     "summary": "A project on multimodal assessments of video-game upgrades and market performance.",
@@ -2605,8 +2605,8 @@
     "status": "Work in progress",
     "venue": null,
     "topics": [
-      "Politics & place",
-      "Methods"
+      "Political science",
+      "Research methods"
     ],
     "methods": [
       "Forecasting"
@@ -2640,8 +2640,8 @@
     "status": "Work in progress",
     "venue": null,
     "topics": [
-      "AI & society",
-      "Methods"
+      "Artificial intelligence",
+      "Research methods"
     ],
     "methods": [],
     "summary": "A project exploring large language models and multimodal information in finance.",
@@ -2673,8 +2673,8 @@
     "status": "Work in progress",
     "venue": null,
     "topics": [
-      "Politics & place",
-      "Methods"
+      "Political science",
+      "Research methods"
     ],
     "methods": [],
     "summary": "A project measuring nationalism through national symbols across Europe.",
@@ -2702,8 +2702,8 @@
     "status": "Work in progress",
     "venue": null,
     "topics": [
-      "Politics & place",
-      "Networks & behavior"
+      "Political science",
+      "Social behavior"
     ],
     "methods": [],
     "summary": "A project examining emotional interactions during meetings of government and state leaders.",
@@ -2733,7 +2733,7 @@
     "status": "Work in progress",
     "venue": null,
     "topics": [
-      "Methods"
+      "Research methods"
     ],
     "methods": [],
     "summary": "A project evaluating the quality of ensemble music.",
@@ -2762,8 +2762,8 @@
     "status": "Work in progress",
     "venue": null,
     "topics": [
-      "Politics & place",
-      "AI & society"
+      "Political science",
+      "Artificial intelligence"
     ],
     "methods": [],
     "summary": "A project examining representation in BBC News coverage.",
@@ -2791,9 +2791,9 @@
     "status": "Work in progress",
     "venue": null,
     "topics": [
-      "Politics & place",
-      "AI & society",
-      "Methods"
+      "Political science",
+      "Artificial intelligence",
+      "Research methods"
     ],
     "methods": [
       "Machine learning"
@@ -2824,9 +2824,9 @@
     "status": "Work in progress",
     "venue": null,
     "topics": [
-      "Networks & behavior",
-      "Politics & place",
-      "Methods"
+      "Social behavior",
+      "Political science",
+      "Research methods"
     ],
     "methods": [],
     "summary": "A project examining information diffusion through congressional hashtag networks.",
@@ -2854,9 +2854,9 @@
     "status": "Work in progress",
     "venue": "Book project",
     "topics": [
-      "Networks & behavior",
-      "AI & society",
-      "Methods"
+      "Social behavior",
+      "Artificial intelligence",
+      "Research methods"
     ],
     "methods": [
       "Emotion measurement"
@@ -2887,7 +2887,7 @@
     "status": "Work in progress",
     "venue": "Book project",
     "topics": [
-      "Games & history"
+      "Game studies"
     ],
     "methods": [],
     "summary": "A book project on fidelity, history, and video games.",
